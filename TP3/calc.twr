@@ -1,0 +1,440 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml calc.twx calc.ncd -o calc.twr calc.pcf -ucf calc.ucf
+
+Design file:              calc.ncd
+Physical constraint file: calc.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.15 2010-12-02)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock switches<0> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led<0>      |        14.581(F)|      SLOW  |         8.480(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<0> |        14.685(F)|      SLOW  |         8.449(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<1> |        15.133(F)|      SLOW  |         8.720(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<2> |        14.948(F)|      SLOW  |         8.619(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<3> |        14.595(F)|      SLOW  |         8.399(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<4> |        14.722(F)|      SLOW  |         8.467(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<5> |        15.059(F)|      SLOW  |         8.667(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<6> |        14.961(F)|      SLOW  |         8.629(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock switches<1> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led<0>      |        13.946(F)|      SLOW  |         8.014(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<0> |        14.050(F)|      SLOW  |         7.983(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<1> |        14.498(F)|      SLOW  |         8.254(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<2> |        14.313(F)|      SLOW  |         8.153(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<3> |        13.960(F)|      SLOW  |         7.933(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<4> |        14.087(F)|      SLOW  |         8.001(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<5> |        14.424(F)|      SLOW  |         8.201(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<6> |        14.326(F)|      SLOW  |         8.163(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock switches<2> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led<0>      |        11.984(F)|      SLOW  |         6.855(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<0> |        12.088(F)|      SLOW  |         6.824(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<1> |        12.536(F)|      SLOW  |         7.095(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<2> |        12.351(F)|      SLOW  |         6.994(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<3> |        11.998(F)|      SLOW  |         6.774(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<4> |        12.125(F)|      SLOW  |         6.842(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<5> |        12.462(F)|      SLOW  |         7.042(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<6> |        12.364(F)|      SLOW  |         7.004(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock switches<3> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led<0>      |        12.522(F)|      SLOW  |         7.332(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<0> |        12.626(F)|      SLOW  |         7.301(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<1> |        13.074(F)|      SLOW  |         7.572(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<2> |        12.889(F)|      SLOW  |         7.471(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<3> |        12.536(F)|      SLOW  |         7.251(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<4> |        12.663(F)|      SLOW  |         7.319(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<5> |        13.000(F)|      SLOW  |         7.519(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<6> |        12.902(F)|      SLOW  |         7.481(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock switches<4> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led<0>      |        14.245(F)|      SLOW  |         8.400(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<0> |        14.349(F)|      SLOW  |         8.369(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<1> |        14.797(F)|      SLOW  |         8.640(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<2> |        14.612(F)|      SLOW  |         8.539(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<3> |        14.259(F)|      SLOW  |         8.319(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<4> |        14.386(F)|      SLOW  |         8.387(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<5> |        14.723(F)|      SLOW  |         8.587(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<6> |        14.625(F)|      SLOW  |         8.549(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock switches<5> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led<0>      |        13.727(F)|      SLOW  |         7.822(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<0> |        13.831(F)|      SLOW  |         7.791(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<1> |        14.279(F)|      SLOW  |         8.062(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<2> |        14.094(F)|      SLOW  |         7.961(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<3> |        13.741(F)|      SLOW  |         7.741(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<4> |        13.868(F)|      SLOW  |         7.809(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<5> |        14.205(F)|      SLOW  |         8.009(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<6> |        14.107(F)|      SLOW  |         7.971(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock switches<6> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led<0>      |        11.927(F)|      SLOW  |         6.834(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<0> |        12.031(F)|      SLOW  |         6.803(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<1> |        12.479(F)|      SLOW  |         7.074(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<2> |        12.294(F)|      SLOW  |         6.973(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<3> |        11.941(F)|      SLOW  |         6.753(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<4> |        12.068(F)|      SLOW  |         6.821(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<5> |        12.405(F)|      SLOW  |         7.021(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<6> |        12.307(F)|      SLOW  |         6.983(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock switches<7> to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led<0>      |        12.644(F)|      SLOW  |         7.320(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<0> |        12.748(F)|      SLOW  |         7.289(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<1> |        13.196(F)|      SLOW  |         7.560(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<2> |        13.011(F)|      SLOW  |         7.459(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<3> |        12.658(F)|      SLOW  |         7.239(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<4> |        12.785(F)|      SLOW  |         7.307(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<5> |        13.122(F)|      SLOW  |         7.507(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+sevenseg<6> |        13.024(F)|      SLOW  |         7.469(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock switches<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+switches<0>    |         |         |    0.454|    0.454|
+switches<1>    |         |         |   -0.174|   -0.174|
+switches<2>    |         |         |   -1.403|   -1.403|
+switches<3>    |         |         |   -0.922|   -0.922|
+switches<4>    |         |         |    0.209|    0.209|
+switches<5>    |         |         |   -0.379|   -0.379|
+switches<6>    |         |         |   -1.427|   -1.427|
+switches<7>    |         |         |   -0.917|   -0.917|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock switches<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+switches<0>    |         |         |    1.066|    1.066|
+switches<1>    |         |         |    0.431|    0.431|
+switches<2>    |         |         |   -0.937|   -0.937|
+switches<3>    |         |         |   -0.456|   -0.456|
+switches<4>    |         |         |    0.730|    0.730|
+switches<5>    |         |         |    0.212|    0.212|
+switches<6>    |         |         |   -0.961|   -0.961|
+switches<7>    |         |         |   -0.451|   -0.451|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock switches<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+switches<0>    |         |         |    2.919|    2.919|
+switches<1>    |         |         |    2.284|    2.284|
+switches<2>    |         |         |    0.322|    0.322|
+switches<3>    |         |         |    0.860|    0.860|
+switches<4>    |         |         |    2.583|    2.583|
+switches<5>    |         |         |    2.065|    2.065|
+switches<6>    |         |         |    0.265|    0.265|
+switches<7>    |         |         |    0.982|    0.982|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock switches<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+switches<0>    |         |         |    2.387|    2.387|
+switches<1>    |         |         |    1.752|    1.752|
+switches<2>    |         |         |   -0.210|   -0.210|
+switches<3>    |         |         |    0.328|    0.328|
+switches<4>    |         |         |    2.051|    2.051|
+switches<5>    |         |         |    1.533|    1.533|
+switches<6>    |         |         |   -0.267|   -0.267|
+switches<7>    |         |         |    0.450|    0.450|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock switches<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+switches<0>    |         |         |    0.758|    0.758|
+switches<1>    |         |         |    0.123|    0.123|
+switches<2>    |         |         |   -1.323|   -1.323|
+switches<3>    |         |         |   -0.842|   -0.842|
+switches<4>    |         |         |    0.422|    0.422|
+switches<5>    |         |         |   -0.096|   -0.096|
+switches<6>    |         |         |   -1.347|   -1.347|
+switches<7>    |         |         |   -0.837|   -0.837|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock switches<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+switches<0>    |         |         |    1.272|    1.272|
+switches<1>    |         |         |    0.637|    0.637|
+switches<2>    |         |         |   -0.745|   -0.745|
+switches<3>    |         |         |   -0.264|   -0.264|
+switches<4>    |         |         |    0.936|    0.936|
+switches<5>    |         |         |    0.418|    0.418|
+switches<6>    |         |         |   -0.769|   -0.769|
+switches<7>    |         |         |   -0.259|   -0.259|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock switches<6>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+switches<0>    |         |         |    2.970|    2.970|
+switches<1>    |         |         |    2.335|    2.335|
+switches<2>    |         |         |    0.373|    0.373|
+switches<3>    |         |         |    0.911|    0.911|
+switches<4>    |         |         |    2.634|    2.634|
+switches<5>    |         |         |    2.116|    2.116|
+switches<6>    |         |         |    0.316|    0.316|
+switches<7>    |         |         |    1.033|    1.033|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock switches<7>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+switches<0>    |         |         |    2.286|    2.286|
+switches<1>    |         |         |    1.651|    1.651|
+switches<2>    |         |         |   -0.243|   -0.243|
+switches<3>    |         |         |    0.238|    0.238|
+switches<4>    |         |         |    1.950|    1.950|
+switches<5>    |         |         |    1.432|    1.432|
+switches<6>    |         |         |   -0.267|   -0.267|
+switches<7>    |         |         |    0.349|    0.349|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+btn<0>         |led<0>         |   13.156|
+btn<0>         |led<1>         |   11.614|
+btn<0>         |led<2>         |   12.236|
+btn<0>         |led<3>         |   12.005|
+btn<0>         |led<4>         |   11.756|
+btn<0>         |sevenseg<0>    |   13.260|
+btn<0>         |sevenseg<1>    |   13.708|
+btn<0>         |sevenseg<2>    |   13.523|
+btn<0>         |sevenseg<3>    |   13.170|
+btn<0>         |sevenseg<4>    |   13.297|
+btn<0>         |sevenseg<5>    |   13.634|
+btn<0>         |sevenseg<6>    |   13.536|
+btn<1>         |led<0>         |   13.713|
+btn<1>         |led<1>         |   13.437|
+btn<1>         |led<2>         |   13.690|
+btn<1>         |led<3>         |   12.814|
+btn<1>         |led<4>         |   12.313|
+btn<1>         |sevenseg<0>    |   13.957|
+btn<1>         |sevenseg<1>    |   14.265|
+btn<1>         |sevenseg<2>    |   14.080|
+btn<1>         |sevenseg<3>    |   13.867|
+btn<1>         |sevenseg<4>    |   13.996|
+btn<1>         |sevenseg<5>    |   14.191|
+btn<1>         |sevenseg<6>    |   14.235|
+btn<2>         |led<0>         |   13.316|
+btn<2>         |led<1>         |   11.626|
+btn<2>         |led<2>         |   11.026|
+btn<2>         |led<3>         |   11.092|
+btn<2>         |led<4>         |   11.916|
+btn<2>         |sevenseg<0>    |   13.420|
+btn<2>         |sevenseg<1>    |   13.868|
+btn<2>         |sevenseg<2>    |   13.683|
+btn<2>         |sevenseg<3>    |   13.330|
+btn<2>         |sevenseg<4>    |   13.457|
+btn<2>         |sevenseg<5>    |   13.794|
+btn<2>         |sevenseg<6>    |   13.696|
+btn<3>         |led<0>         |   12.603|
+btn<3>         |led<1>         |   10.718|
+btn<3>         |led<2>         |   10.950|
+btn<3>         |led<3>         |   10.859|
+btn<3>         |led<4>         |   11.203|
+btn<3>         |sevenseg<0>    |   12.707|
+btn<3>         |sevenseg<1>    |   13.155|
+btn<3>         |sevenseg<2>    |   12.970|
+btn<3>         |sevenseg<3>    |   12.617|
+btn<3>         |sevenseg<4>    |   12.744|
+btn<3>         |sevenseg<5>    |   13.081|
+btn<3>         |sevenseg<6>    |   12.983|
+btn<4>         |led<0>         |   12.706|
+btn<4>         |led<1>         |   11.914|
+btn<4>         |led<2>         |   11.907|
+btn<4>         |led<3>         |   11.796|
+btn<4>         |led<4>         |   11.306|
+btn<4>         |sevenseg<0>    |   12.810|
+btn<4>         |sevenseg<1>    |   13.258|
+btn<4>         |sevenseg<2>    |   13.073|
+btn<4>         |sevenseg<3>    |   12.720|
+btn<4>         |sevenseg<4>    |   12.847|
+btn<4>         |sevenseg<5>    |   13.184|
+btn<4>         |sevenseg<6>    |   13.086|
+switches<0>    |led<0>         |   12.165|
+switches<0>    |led<1>         |   11.184|
+switches<0>    |led<2>         |   12.049|
+switches<0>    |led<3>         |   11.870|
+switches<0>    |led<4>         |   10.460|
+switches<0>    |sevenseg<0>    |   12.320|
+switches<0>    |sevenseg<1>    |   12.717|
+switches<0>    |sevenseg<2>    |   12.532|
+switches<0>    |sevenseg<3>    |   12.230|
+switches<0>    |sevenseg<4>    |   12.337|
+switches<0>    |sevenseg<5>    |   12.643|
+switches<0>    |sevenseg<6>    |   12.576|
+switches<1>    |led<0>         |   11.722|
+switches<1>    |led<1>         |   10.593|
+switches<1>    |led<2>         |   11.414|
+switches<1>    |led<3>         |   11.235|
+switches<1>    |led<4>         |    9.825|
+switches<1>    |sevenseg<0>    |   11.826|
+switches<1>    |sevenseg<1>    |   12.274|
+switches<1>    |sevenseg<2>    |   12.089|
+switches<1>    |sevenseg<3>    |   11.736|
+switches<1>    |sevenseg<4>    |   11.863|
+switches<1>    |sevenseg<5>    |   12.200|
+switches<1>    |sevenseg<6>    |   12.102|
+switches<2>    |led<0>         |   12.379|
+switches<2>    |led<2>         |   11.733|
+switches<2>    |led<3>         |   11.109|
+switches<2>    |led<4>         |    9.161|
+switches<2>    |sevenseg<0>    |   12.483|
+switches<2>    |sevenseg<1>    |   12.931|
+switches<2>    |sevenseg<2>    |   12.746|
+switches<2>    |sevenseg<3>    |   12.393|
+switches<2>    |sevenseg<4>    |   12.520|
+switches<2>    |sevenseg<5>    |   12.857|
+switches<2>    |sevenseg<6>    |   12.759|
+switches<3>    |led<0>         |   12.644|
+switches<3>    |led<3>         |   12.338|
+switches<3>    |led<4>         |    9.235|
+switches<3>    |sevenseg<0>    |   12.788|
+switches<3>    |sevenseg<1>    |   13.196|
+switches<3>    |sevenseg<2>    |   13.011|
+switches<3>    |sevenseg<3>    |   12.698|
+switches<3>    |sevenseg<4>    |   12.785|
+switches<3>    |sevenseg<5>    |   13.122|
+switches<3>    |sevenseg<6>    |   13.024|
+switches<4>    |led<0>         |   12.110|
+switches<4>    |led<1>         |   11.177|
+switches<4>    |led<2>         |   11.713|
+switches<4>    |led<3>         |   11.534|
+switches<4>    |led<4>         |   10.124|
+switches<4>    |sevenseg<0>    |   12.214|
+switches<4>    |sevenseg<1>    |   12.662|
+switches<4>    |sevenseg<2>    |   12.477|
+switches<4>    |sevenseg<3>    |   12.124|
+switches<4>    |sevenseg<4>    |   12.251|
+switches<4>    |sevenseg<5>    |   12.588|
+switches<4>    |sevenseg<6>    |   12.490|
+switches<5>    |led<0>         |   11.656|
+switches<5>    |led<1>         |   10.841|
+switches<5>    |led<2>         |   11.195|
+switches<5>    |led<3>         |   11.016|
+switches<5>    |led<4>         |    9.606|
+switches<5>    |sevenseg<0>    |   11.760|
+switches<5>    |sevenseg<1>    |   12.208|
+switches<5>    |sevenseg<2>    |   12.023|
+switches<5>    |sevenseg<3>    |   11.670|
+switches<5>    |sevenseg<4>    |   11.797|
+switches<5>    |sevenseg<5>    |   12.134|
+switches<5>    |sevenseg<6>    |   12.036|
+switches<6>    |led<0>         |   10.775|
+switches<6>    |led<2>         |   11.233|
+switches<6>    |led<3>         |   10.371|
+switches<6>    |led<4>         |    8.622|
+switches<6>    |sevenseg<0>    |   11.500|
+switches<6>    |sevenseg<1>    |   11.487|
+switches<6>    |sevenseg<2>    |   11.471|
+switches<6>    |sevenseg<3>    |   11.410|
+switches<6>    |sevenseg<4>    |   11.521|
+switches<6>    |sevenseg<5>    |   11.582|
+switches<6>    |sevenseg<6>    |   11.760|
+switches<7>    |led<0>         |   11.411|
+switches<7>    |led<3>         |   11.946|
+switches<7>    |led<4>         |    9.055|
+switches<7>    |sevenseg<0>    |   12.396|
+switches<7>    |sevenseg<1>    |   11.982|
+switches<7>    |sevenseg<2>    |   12.364|
+switches<7>    |sevenseg<3>    |   12.306|
+switches<7>    |sevenseg<4>    |   12.320|
+switches<7>    |sevenseg<5>    |   12.475|
+switches<7>    |sevenseg<6>    |   12.559|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Sep 27 19:06:17 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 287 MB
+
+
+

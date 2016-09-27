@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "/home/m1/delbar/Workspace/m1s1aeo/TP2/calc.xst" -ofn "/home/m1/delbar/Workspace/m1s1aeo/TP2/calc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc calc.ucf -p xc6slx16-csg324-3 calc.ngc calc.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o calc_map.ncd calc.ngd calc.pcf 
+par -w -intstyle ise -ol high -mt off calc_map.ncd calc.ncd calc.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml calc.twx calc.ncd -o calc.twr calc.pcf -ucf calc.ucf 
+bitgen -intstyle ise -f calc.ut calc.ncd 
+xst -intstyle ise -ifn "/home/m1/delbar/Workspace/m1s1aeo/TP2/calc.xst" -ofn "/home/m1/delbar/Workspace/m1s1aeo/TP2/calc.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc calc.ucf -p xc6slx16-csg324-3 calc.ngc calc.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o calc_map.ncd calc.ngd calc.pcf 
+par -w -intstyle ise -ol high -mt off calc_map.ncd calc.ncd calc.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml calc.twx calc.ncd -o calc.twr calc.pcf -ucf calc.ucf 
+bitgen -intstyle ise -f calc.ut calc.ncd 
+vhdtdtfi -lib work xor4.vhd -lib work x7seg.vhd -lib work or4.vhd -lib work minimux.vhd -lib work and4.vhd -lib work add4.vhd -lib work calc.vhd -prj TP2 -o calc.spl -module calc -template /opt/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 calc.spl /home/m1/delbar/Workspace/m1s1aeo/TP2/calc.sym 

@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=E:\wared\Workspace\m1s1aeo\TP2\calc.ncd
-OUTFILE=E:\wared\Workspace\m1s1aeo\TP2\calc.bit
+INFILE=/home/m1/delbar/Workspace/m1s1aeo/TP2/calc.ncd
+OUTFILE=/home/m1/delbar/Workspace/m1s1aeo/TP2/calc.bit
 FAMILY=Spartan6
 PART=xc6slx16-3csg324
-WORKINGDIR=E:\wared\Workspace\m1s1aeo\TP2
+WORKINGDIR=/home/m1/delbar/Workspace/m1s1aeo/TP2
 LICENSE=WebPack
-USER_INFO=0_0_872
+USER_INFO=0_0_579

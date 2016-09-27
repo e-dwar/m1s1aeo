@@ -1,0 +1,8 @@
+[Inputs]
+=switches[7:0]=
+=btn[1:0]=
+[Outputs]
+=led[7:0]=
+=sevenseg[6:0]=
+=anodes[3:0]=
+[BiDir]

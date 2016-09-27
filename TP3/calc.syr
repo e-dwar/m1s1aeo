@@ -1,0 +1,177 @@
+Release 12.4 - xst M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: calc.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "calc.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "calc"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : calc
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/xor4.vhd" into library work
+Parsing entity <xor4>.
+Parsing architecture <Behavioral> of entity <xor4>.
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/x7seg.vhd" into library work
+Parsing entity <x7seg>.
+Parsing architecture <Behavioral> of entity <x7seg>.
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/parity.vhd" into library work
+Parsing entity <parity>.
+Parsing architecture <Behavioral> of entity <parity>.
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/or4.vhd" into library work
+Parsing entity <or4>.
+Parsing architecture <Behavioral> of entity <or4>.
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/minimux.vhd" into library work
+Parsing entity <minimux>.
+Parsing architecture <Behavioral> of entity <minimux>.
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/count.vhd" into library work
+Parsing entity <count>.
+Parsing architecture <Behavioral> of entity <count>.
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/comp.vhd" into library work
+Parsing entity <comp>.
+Parsing architecture <Behavioral> of entity <comp>.
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/and4.vhd" into library work
+Parsing entity <and4>.
+Parsing architecture <Behavioral> of entity <and4>.
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/add4.vhd" into library work
+Parsing entity <add4>.
+Parsing architecture <Behavioral> of entity <add4>.
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/calc.vhd" into library work
+Parsing entity <calc>.
+Parsing architecture <Behavioral> of entity <calc>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <calc> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <minimux> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <add4> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <and4> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <or4> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <xor4> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <comp> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <count> (architecture <Behavioral>) from library <work>.
+Non-constant loop found; will execute up to 5000 iterations
+ERROR:HDLCompiler:533 - "/home/m1/delbar/Workspace/m1s1aeo/TP3/count.vhd" Line 52: Index 4 is out of array constraint 3 downto 0 for target s
+Netlist count(Behavioral) remains a blackbox, due to errors in its contents
+
+Elaborating entity <parity> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <x7seg> (architecture <Behavioral>) from library <work>.
+--> 
+
+
+Total memory usage is 296444 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
