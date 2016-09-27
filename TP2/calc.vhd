@@ -95,8 +95,8 @@ architecture Behavioral of calc is
  
 begin
  
+	anodes <= "1110";
  	led <= "000" & result;
- 	anodes <= "1110";
 	
 	Inst_minimux: minimux PORT MAP(
 		choice => btn(1 downto 0),

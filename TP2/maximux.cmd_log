@@ -1,0 +1,3 @@
+vhdtdtfi -lib work maximux.vhd -prj TP2 -o maximux.spl -module maximux -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 maximux.spl E:/wared/Workspace/m1s1aeo/TP2/maximux.sym 
+vhdtdtfi -prj TP2 -o E:/wared/Workspace/m1s1aeo/TP2/maximux.vhi -lib work E:/wared/Workspace/m1s1aeo/TP2//maximux.vhd -module maximux -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

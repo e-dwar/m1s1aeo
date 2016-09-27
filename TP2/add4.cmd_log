@@ -1,0 +1,1 @@
+vhdtdtfi -prj TP2 -o E:/wared/Workspace/m1s1aeo/TP2/add4.vhi -lib work E:/wared/Workspace/m1s1aeo/TP2//add4.vhd -module add4 -template C:/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

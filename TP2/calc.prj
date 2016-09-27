@@ -1,7 +1,0 @@
-vhdl work "xor4.vhd"
-vhdl work "x7seg.vhd"
-vhdl work "or4.vhd"
-vhdl work "minimux.vhd"
-vhdl work "and4.vhd"
-vhdl work "add4.vhd"
-vhdl work "calc.vhd"
