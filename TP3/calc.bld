@@ -1,10 +1,10 @@
-Release 12.4 ngdbuild M.81d (lin64)
+Release 12.4 ngdbuild M.81d (nt)
 Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
-Command Line: /opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+Command Line: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
 ise -dd _ngo -nt timestamp -uc calc.ucf -p xc6slx16-csg324-3 calc.ngc calc.ngd
 
-Reading NGO file "/home/m1/delbar/Workspace/m1s1aeo/TP3/calc.ngc" ...
+Reading NGO file "E:/wared/Workspace/m1s1aeo/TP3/calc.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -26,10 +26,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 249688 kilobytes
+Total memory usage is 138164 kilobytes
 
 Writing NGD file "calc.ngd" ...
-Total REAL time to NGDBUILD completion:  1 sec
+Total REAL time to NGDBUILD completion:  2 sec
 Total CPU time to NGDBUILD completion:   1 sec
 
 Writing NGDBUILD log file "calc.bld"...

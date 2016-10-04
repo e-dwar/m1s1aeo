@@ -36,23 +36,24 @@ end count;
 architecture Behavioral of count is
 
 begin	process(a)
-	variable N : integer;
-	variable i : integer;
+	variable n : integer;
 	
 	begin
-		N := 0; 
-		for I in 0 to 7 loop 
-			if a(I) = '1' then
-				N := N + 1;
+		n := 0;
+		for i in 0 to 7 loop 
+			if a(i) = '1' then
+				n := n + 1;
 			end if;
 		end loop;
-		i := 0; 
-	   while N > 0 loop 
-			if (N mod 2) = 1 then 
+	   for i in 0 to 3 loop
+			if (n mod 2) = 1 then 
 				 s(i) <= '1';
+			end if;
+			if (n mod 2) = 0 then 
+				 s(i) <= '0';
 			end if; 
-			N := N / 2;
-			i := i + 1;
+			n := n / 2;
 	   end loop;
-	end process;end Behavioral;
+	end process;
+end Behavioral;
 
