@@ -1,0 +1,2 @@
+vhdl work "clkdiv.vhd"
+vhdl work "shift_vector.vhd"

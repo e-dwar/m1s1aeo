@@ -1,18 +1,21 @@
-Release 12.4 - xst M.81d (nt)
+Release 12.4 - xst M.81d (lin64)
 Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to xst/projnav.tmp
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total CPU time to Xst completion: 0.03 secs
  
---> Parameter xsthdpdir set to xst
+--> 
+Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total CPU time to Xst completion: 0.03 secs
  
---> Reading design: calc.prj
+--> 
+Reading design: calc.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -106,34 +109,34 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\xor4.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/xor4.vhd" into library work
 Parsing entity <xor4>.
 Parsing architecture <Behavioral> of entity <xor4>.
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\x7seg.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/x7seg.vhd" into library work
 Parsing entity <x7seg>.
 Parsing architecture <Behavioral> of entity <x7seg>.
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\parity.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/parity.vhd" into library work
 Parsing entity <parity>.
 Parsing architecture <Behavioral> of entity <parity>.
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\or4.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/or4.vhd" into library work
 Parsing entity <or4>.
 Parsing architecture <Behavioral> of entity <or4>.
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\minimux.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/minimux.vhd" into library work
 Parsing entity <minimux>.
 Parsing architecture <Behavioral> of entity <minimux>.
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\count.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/count.vhd" into library work
 Parsing entity <count>.
 Parsing architecture <Behavioral> of entity <count>.
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\comp.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/comp.vhd" into library work
 Parsing entity <comp>.
 Parsing architecture <Behavioral> of entity <comp>.
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\and4.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/and4.vhd" into library work
 Parsing entity <and4>.
 Parsing architecture <Behavioral> of entity <and4>.
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\add4.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/add4.vhd" into library work
 Parsing entity <add4>.
 Parsing architecture <Behavioral> of entity <add4>.
-Parsing VHDL file "\wared\Workspace\m1s1aeo\TP3\calc.vhd" into library work
+Parsing VHDL file "/home/m1/delbar/Workspace/m1s1aeo/TP3/calc.vhd" into library work
 Parsing entity <calc>.
 Parsing architecture <Behavioral> of entity <calc>.
 
@@ -166,59 +169,57 @@ Elaborating entity <x7seg> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <calc>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/calc.vhd".
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/calc.vhd".
     Summary:
 	no macro.
 Unit <calc> synthesized.
 
 Synthesizing Unit <minimux>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/minimux.vhd".
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/minimux.vhd".
     Summary:
 	inferred   6 Multiplexer(s).
 Unit <minimux> synthesized.
 
 Synthesizing Unit <add4>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/add4.vhd".
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/add4.vhd".
     Found 5-bit adder for signal <sum> created at line 43.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 Unit <add4> synthesized.
 
 Synthesizing Unit <and4>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/and4.vhd".
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/and4.vhd".
     Summary:
 	no macro.
 Unit <and4> synthesized.
 
 Synthesizing Unit <or4>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/or4.vhd".
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/or4.vhd".
     Summary:
 	no macro.
 Unit <or4> synthesized.
 
 Synthesizing Unit <xor4>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/xor4.vhd".
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/xor4.vhd".
     Summary:
 Unit <xor4> synthesized.
 
 Synthesizing Unit <comp>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/comp.vhd".
-WARNING:Xst:737 - Found 1-bit latch for signal <s<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 4-bit comparator equal for signal <b[3]_GND_11_o_AND_11_o> created at line 42
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/comp.vhd".
+    Found 4-bit comparator equal for signal <b[3]_a[3]_equal_1_o> created at line 42
     Summary:
-	inferred   1 Latch(s).
 	inferred   1 Comparator(s).
 Unit <comp> synthesized.
 
 Synthesizing Unit <count>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/count.vhd".
-    Found 2-bit adder for signal <n0058> created at line 46.
-    Found 3-bit adder for signal <n0060> created at line 46.
-    Found 4-bit adder for signal <n0062> created at line 46.
-    Found 5-bit adder for signal <n0064> created at line 46.
-    Found 6-bit adder for signal <n0066> created at line 46.
-    Found 7-bit adder for signal <n0068> created at line 46.
-    Found 8-bit adder for signal <n0070> created at line 46.
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/count.vhd".
+    Found 2-bit adder for signal <n0058> created at line 45.
+    Found 3-bit adder for signal <n0060> created at line 45.
+    Found 4-bit adder for signal <n0062> created at line 45.
+    Found 5-bit adder for signal <n0064> created at line 45.
+    Found 6-bit adder for signal <n0066> created at line 45.
+    Found 7-bit adder for signal <n0068> created at line 45.
+    Found 8-bit adder for signal <n0070> created at line 45.
 WARNING:Xst:737 - Found 1-bit latch for signal <s<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <s<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <s<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -230,16 +231,20 @@ WARNING:Xst:737 - Found 1-bit latch for signal <s<0>>. Latches may be generated 
 Unit <count> synthesized.
 
 Synthesizing Unit <parity>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/parity.vhd".
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/parity.vhd".
     Summary:
 Unit <parity> synthesized.
 
 Synthesizing Unit <x7seg>.
-    Related source file is "/wared/workspace/m1s1aeo/tp3/x7seg.vhd".
+    Related source file is "/home/m1/delbar/Workspace/m1s1aeo/TP3/x7seg.vhd".
     Found 16x7-bit Read Only RAM for signal <sevenseg>
     Summary:
 	inferred   1 RAM(s).
 Unit <x7seg> synthesized.
+RTL-Simplification CPUSTAT: 0.00 
+RTL-BasicInf CPUSTAT: 0.09 
+RTL-BasicOpt CPUSTAT: 0.00 
+RTL-Remain-Bus CPUSTAT: 0.01 
 
 =========================================================================
 HDL Synthesis Report
@@ -255,8 +260,8 @@ Macro Statistics
  6-bit adder                                           : 1
  7-bit adder                                           : 1
  8-bit adder                                           : 1
-# Latches                                              : 5
- 1-bit latch                                           : 5
+# Latches                                              : 4
+ 1-bit latch                                           : 4
 # Comparators                                          : 1
  4-bit comparator equal                                : 1
 # Multiplexers                                         : 13
@@ -348,7 +353,6 @@ WARNING:Xst:3002 - This design contains one or more registers/latches that are d
   Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
 
   List of register instances with asynchronous set and reset:
-    Inst_comp/s_0 in unit <calc>
     Inst_count/s_0 in unit <calc>
     Inst_count/s_1 in unit <calc>
     Inst_count/s_2 in unit <calc>
@@ -388,17 +392,16 @@ Top Level Output File Name         : calc.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 66
+# BELS                             : 54
 #      GND                         : 1
-#      LUT2                        : 3
-#      LUT3                        : 13
-#      LUT4                        : 12
-#      LUT5                        : 22
-#      LUT6                        : 13
-#      MUXF7                       : 1
+#      LUT3                        : 9
+#      LUT4                        : 13
+#      LUT5                        : 9
+#      LUT6                        : 19
+#      MUXF7                       : 2
 #      VCC                         : 1
-# FlipFlops/Latches                : 5
-#      LD                          : 5
+# FlipFlops/Latches                : 4
+#      LD                          : 4
 # IO Buffers                       : 32
 #      IBUF                        : 13
 #      OBUF                        : 19
@@ -410,16 +413,16 @@ Selected Device : 6slx16csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:               5  out of  18224     0%  
- Number of Slice LUTs:                   63  out of   9112     0%  
-    Number used as Logic:                63  out of   9112     0%  
+ Number of Slice Registers:               4  out of  18224     0%  
+ Number of Slice LUTs:                   50  out of   9112     0%  
+    Number used as Logic:                50  out of   9112     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     63
-   Number with an unused Flip Flop:      58  out of     63    92%  
-   Number with an unused LUT:             0  out of     63     0%  
-   Number of fully used LUT-FF pairs:     5  out of     63     7%  
-   Number of unique control sets:         5
+ Number of LUT Flip Flop pairs used:     50
+   Number with an unused Flip Flop:      46  out of     50    92%  
+   Number with an unused LUT:             0  out of     50     0%  
+   Number of fully used LUT-FF pairs:     4  out of     50     8%  
+   Number of unique control sets:         4
 
 IO Utilization: 
  Number of IOs:                          32
@@ -452,9 +455,8 @@ Inst_count/s_3_G(Inst_count/s_3_G:O)| NONE(*)(Inst_count/s_3)| 1     |
 Inst_count/s_2_G(Inst_count/s_2_G:O)| NONE(*)(Inst_count/s_2)| 1     |
 Inst_count/s_1_G(Inst_count/s_1_G:O)| NONE(*)(Inst_count/s_1)| 1     |
 Inst_count/s_0_G(Inst_count/s_0_G:O)| NONE(*)(Inst_count/s_0)| 1     |
-Inst_comp/s_0_G(Inst_comp/s_0_G:O)  | NONE(*)(Inst_comp/s_0) | 1     |
 ------------------------------------+------------------------+-------+
-(*) These 5 clock signal(s) are generated by combinatorial logic,
+(*) These 4 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -468,9 +470,9 @@ Timing Summary:
 Speed Grade: -3
 
    Minimum period: No path found
-   Minimum input arrival time before clock: 7.117ns
-   Maximum output required time after clock: 7.597ns
-   Maximum combinational path delay: 9.733ns
+   Minimum input arrival time before clock: 6.304ns
+   Maximum output required time after clock: 6.572ns
+   Maximum combinational path delay: 9.163ns
 
 Timing Details:
 ---------------
@@ -478,80 +480,81 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_count/s_3_G'
-  Total number of paths / destination ports: 156 / 1
+  Total number of paths / destination ports: 122 / 1
 -------------------------------------------------------------------------
-Offset:              6.991ns (Levels of Logic = 6)
-  Source:            switches<3> (PAD)
+Offset:              6.158ns (Levels of Logic = 6)
+  Source:            switches<0> (PAD)
   Destination:       Inst_count/s_3 (LATCH)
   Destination Clock: Inst_count/s_3_G falling
 
-  Data Path: switches<3> to Inst_count/s_3
+  Data Path: switches<0> to Inst_count/s_3
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            14   1.222   1.302  switches_3_IBUF (switches_3_IBUF)
-     LUT5:I0->O            5   0.203   1.059  Inst_count/Mmux_GND_16_o_BUS_0004_mux_7_OUT21 (Inst_count/Madd_n0066_lut<1>)
-     LUT5:I0->O            2   0.203   0.721  Inst_count/Mmux_GND_16_o_BUS_0005_mux_9_OUT21 (Inst_count/Madd_n0068_lut<1>)
-     LUT6:I4->O            4   0.203   0.788  Inst_count/Mmux_n0056311 (N56)
-     LUT5:I3->O            2   0.203   0.845  Inst_count/n0056<3>_inv1 (Inst_count/n0056<3>_inv)
-     LUT3:I0->O            1   0.205   0.000  Inst_count/s_3_D (Inst_count/s_3_D)
+     IBUF:I->O            10   1.222   1.104  switches_0_IBUF (Inst_count/Madd_n0058_cy<0>)
+     LUT4:I0->O            8   0.203   1.031  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT211 (N2)
+     LUT6:I3->O            1   0.205   0.000  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT221 (Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT22)
+     MUXF7:I1->O           6   0.140   1.089  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT22_f7 (Inst_count/Madd_n0070_lut<1>)
+     LUT6:I1->O            2   0.203   0.721  Inst_count/Mmux_n005642 (Inst_count/n0056<3>)
+     LUT3:I1->O            1   0.203   0.000  Inst_count/s_3_D (Inst_count/s_3_D)
      LD:D                      0.037          Inst_count/s_3
     ----------------------------------------
-    Total                      6.991ns (2.276ns logic, 4.715ns route)
-                                       (32.6% logic, 67.4% route)
+    Total                      6.158ns (2.213ns logic, 3.944ns route)
+                                       (35.9% logic, 64.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_count/s_2_G'
-  Total number of paths / destination ports: 82 / 1
+  Total number of paths / destination ports: 122 / 1
 -------------------------------------------------------------------------
-Offset:              7.117ns (Levels of Logic = 6)
-  Source:            switches<3> (PAD)
+Offset:              6.284ns (Levels of Logic = 6)
+  Source:            switches<0> (PAD)
   Destination:       Inst_count/s_2 (LATCH)
   Destination Clock: Inst_count/s_2_G falling
 
-  Data Path: switches<3> to Inst_count/s_2
+  Data Path: switches<0> to Inst_count/s_2
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            14   1.222   1.302  switches_3_IBUF (switches_3_IBUF)
-     LUT5:I0->O            5   0.203   1.059  Inst_count/Mmux_GND_16_o_BUS_0004_mux_7_OUT21 (Inst_count/Madd_n0066_lut<1>)
-     LUT5:I0->O            2   0.203   0.721  Inst_count/Mmux_GND_16_o_BUS_0005_mux_9_OUT21 (Inst_count/Madd_n0068_lut<1>)
-     LUT6:I4->O            4   0.203   0.912  Inst_count/Mmux_n0056311 (N56)
-     LUT3:I0->O            2   0.205   0.845  Inst_count/n0056<2>_inv1 (Inst_count/n0056<2>_inv)
+     IBUF:I->O            10   1.222   1.104  switches_0_IBUF (Inst_count/Madd_n0058_cy<0>)
+     LUT4:I0->O            8   0.203   1.031  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT211 (N2)
+     LUT6:I3->O            1   0.205   0.000  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT221 (Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT22)
+     MUXF7:I1->O           6   0.140   1.089  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT22_f7 (Inst_count/Madd_n0070_lut<1>)
+     LUT6:I1->O            2   0.203   0.845  Inst_count/n0056<2>_inv1 (Inst_count/n0056<2>_inv)
      LUT3:I0->O            1   0.205   0.000  Inst_count/s_2_D (Inst_count/s_2_D)
      LD:D                      0.037          Inst_count/s_2
     ----------------------------------------
-    Total                      7.117ns (2.278ns logic, 4.839ns route)
-                                       (32.0% logic, 68.0% route)
+    Total                      6.284ns (2.215ns logic, 4.069ns route)
+                                       (35.3% logic, 64.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_count/s_1_G'
-  Total number of paths / destination ports: 40 / 1
+  Total number of paths / destination ports: 78 / 1
 -------------------------------------------------------------------------
-Offset:              6.261ns (Levels of Logic = 5)
-  Source:            switches<3> (PAD)
+Offset:              6.304ns (Levels of Logic = 6)
+  Source:            switches<0> (PAD)
   Destination:       Inst_count/s_1 (LATCH)
   Destination Clock: Inst_count/s_1_G falling
 
-  Data Path: switches<3> to Inst_count/s_1
+  Data Path: switches<0> to Inst_count/s_1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            14   1.222   1.302  switches_3_IBUF (switches_3_IBUF)
-     LUT5:I0->O            5   0.203   1.079  Inst_count/Mmux_GND_16_o_BUS_0004_mux_7_OUT21 (Inst_count/Madd_n0066_lut<1>)
-     LUT6:I0->O            2   0.203   0.961  Inst_count/Mmux_GND_16_o_BUS_0006_mux_11_OUT21 (Inst_count/Madd_n0070_lut<1>)
-     LUT5:I0->O            2   0.203   0.845  Inst_count/n0056<1>_inv1 (Inst_count/n0056<1>_inv)
+     IBUF:I->O            10   1.222   1.104  switches_0_IBUF (Inst_count/Madd_n0058_cy<0>)
+     LUT4:I0->O            8   0.203   1.031  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT211 (N2)
+     LUT6:I3->O            1   0.205   0.000  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT221 (Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT22)
+     MUXF7:I1->O           6   0.140   1.109  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT22_f7 (Inst_count/Madd_n0070_lut<1>)
+     LUT6:I0->O            2   0.203   0.845  Inst_count/n0056<1>_inv1 (Inst_count/n0056<1>_inv)
      LUT3:I0->O            1   0.205   0.000  Inst_count/s_1_D (Inst_count/s_1_D)
      LD:D                      0.037          Inst_count/s_1
     ----------------------------------------
-    Total                      6.261ns (2.073ns logic, 4.188ns route)
-                                       (33.1% logic, 66.9% route)
+    Total                      6.304ns (2.215ns logic, 4.089ns route)
+                                       (35.1% logic, 64.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_count/s_0_G'
   Total number of paths / destination ports: 16 / 1
 -------------------------------------------------------------------------
-Offset:              4.791ns (Levels of Logic = 4)
+Offset:              4.966ns (Levels of Logic = 4)
   Source:            switches<0> (PAD)
   Destination:       Inst_count/s_0 (LATCH)
   Destination Clock: Inst_count/s_0_G falling
@@ -560,42 +563,20 @@ Offset:              4.791ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            11   1.222   1.227  switches_0_IBUF (Inst_count/Madd_n0058_cy<0>)
-     LUT5:I0->O            6   0.203   0.849  Inst_count/Mmux_GND_16_o_BUS_0006_mux_11_OUT211 (N54)
-     LUT4:I2->O            2   0.203   0.845  Inst_count/n0056<0>_inv1 (Inst_count/n0056<0>_inv)
+     IBUF:I->O            10   1.222   1.104  switches_0_IBUF (Inst_count/Madd_n0058_cy<0>)
+     LUT4:I0->O            8   0.203   1.147  Inst_count/Mmux_GND_12_o_BUS_0006_mux_11_OUT211 (N2)
+     LUT5:I0->O            2   0.203   0.845  Inst_count/n0056<0>_inv1 (Inst_count/n0056<0>_inv)
      LUT3:I0->O            1   0.205   0.000  Inst_count/s_0_D (Inst_count/s_0_D)
      LD:D                      0.037          Inst_count/s_0
     ----------------------------------------
-    Total                      4.791ns (1.870ns logic, 2.921ns route)
-                                       (39.0% logic, 61.0% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'Inst_comp/s_0_G'
-  Total number of paths / destination ports: 16 / 1
--------------------------------------------------------------------------
-Offset:              4.714ns (Levels of Logic = 4)
-  Source:            switches<4> (PAD)
-  Destination:       Inst_comp/s_0 (LATCH)
-  Destination Clock: Inst_comp/s_0_G falling
-
-  Data Path: switches<4> to Inst_comp/s_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O            13   1.222   1.161  switches_4_IBUF (switches_4_IBUF)
-     LUT4:I1->O            2   0.205   0.961  Inst_comp/b[3]_GND_11_o_AND_11_o4_SW0 (N100)
-     LUT5:I0->O            2   0.203   0.721  Inst_comp/b[3]_GND_11_o_AND_11_o4 (Inst_comp/b[3]_GND_11_o_AND_11_o)
-     LUT3:I1->O            1   0.203   0.000  Inst_comp/s_0_D (Inst_comp/s_0_D)
-     LD:D                      0.037          Inst_comp/s_0
-    ----------------------------------------
-    Total                      4.714ns (1.870ns logic, 2.844ns route)
-                                       (39.7% logic, 60.3% route)
+    Total                      4.966ns (1.870ns logic, 3.096ns route)
+                                       (37.7% logic, 62.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_count/s_3_G'
   Total number of paths / destination ports: 8 / 8
 -------------------------------------------------------------------------
-Offset:              6.453ns (Levels of Logic = 4)
+Offset:              6.010ns (Levels of Logic = 3)
   Source:            Inst_count/s_3 (LATCH)
   Destination:       sevenseg<5> (PAD)
   Source Clock:      Inst_count/s_3_G falling
@@ -604,20 +585,19 @@ Offset:              6.453ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q               1   0.498   0.580  Inst_count/s_3 (Inst_count/s_3)
-     LUT6:I5->O            1   0.205   0.580  Inst_minimux/Mmux_s82 (Inst_minimux/Mmux_s81)
-     LUT6:I5->O            8   0.205   1.031  Inst_minimux/Mmux_s83 (led_3_OBUF)
+     LD:G->Q               1   0.498   0.924  Inst_count/s_3 (Inst_count/s_3)
+     LUT6:I1->O            8   0.203   1.031  Inst_minimux/Mmux_s82 (led_3_OBUF)
      LUT4:I1->O            1   0.205   0.579  Inst_x7seg/Mram_sevenseg51 (sevenseg_5_OBUF)
      OBUF:I->O                 2.571          sevenseg_5_OBUF (sevenseg<5>)
     ----------------------------------------
-    Total                      6.453ns (3.684ns logic, 2.769ns route)
-                                       (57.1% logic, 42.9% route)
+    Total                      6.010ns (3.477ns logic, 2.533ns route)
+                                       (57.9% logic, 42.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_count/s_2_G'
   Total number of paths / destination ports: 8 / 8
 -------------------------------------------------------------------------
-Offset:              6.470ns (Levels of Logic = 4)
+Offset:              6.027ns (Levels of Logic = 3)
   Source:            Inst_count/s_2 (LATCH)
   Destination:       sevenseg<1> (PAD)
   Source Clock:      Inst_count/s_2_G falling
@@ -626,20 +606,19 @@ Offset:              6.470ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q               1   0.498   0.580  Inst_count/s_2 (Inst_count/s_2)
-     LUT6:I5->O            1   0.205   0.580  Inst_minimux/Mmux_s61 (Inst_minimux/Mmux_s6)
-     LUT5:I4->O            8   0.205   1.050  Inst_minimux/Mmux_s62 (led_2_OBUF)
+     LD:G->Q               1   0.498   0.924  Inst_count/s_2 (Inst_count/s_2)
+     LUT6:I1->O            8   0.203   1.050  Inst_minimux/Mmux_s62 (led_2_OBUF)
      LUT4:I0->O            1   0.203   0.579  Inst_x7seg/Mram_sevenseg111 (sevenseg_1_OBUF)
      OBUF:I->O                 2.571          sevenseg_1_OBUF (sevenseg<1>)
     ----------------------------------------
-    Total                      6.470ns (3.682ns logic, 2.788ns route)
-                                       (56.9% logic, 43.1% route)
+    Total                      6.027ns (3.475ns logic, 2.552ns route)
+                                       (57.7% logic, 42.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_count/s_1_G'
-  Total number of paths / destination ports: 8 / 8
+  Total number of paths / destination ports: 16 / 8
 -------------------------------------------------------------------------
-Offset:              6.470ns (Levels of Logic = 4)
+Offset:              5.965ns (Levels of Logic = 4)
   Source:            Inst_count/s_1 (LATCH)
   Destination:       sevenseg<6> (PAD)
   Source Clock:      Inst_count/s_1_G falling
@@ -648,42 +627,20 @@ Offset:              6.470ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q               1   0.498   0.580  Inst_count/s_1 (Inst_count/s_1)
-     LUT6:I5->O            1   0.205   0.580  Inst_minimux/Mmux_s42 (Inst_minimux/Mmux_s41)
-     LUT5:I4->O            8   0.205   1.050  Inst_minimux/Mmux_s43 (led_1_OBUF)
+     LD:G->Q               2   0.498   0.721  Inst_count/s_1 (Inst_count/s_1)
+     LUT6:I4->O            1   0.203   0.000  Inst_minimux/Mmux_s431 (Inst_minimux/Mmux_s43)
+     MUXF7:I1->O           8   0.140   1.050  Inst_minimux/Mmux_s43_f7 (Inst_minimux/Mmux_s43_f7)
      LUT4:I0->O            1   0.203   0.579  Inst_x7seg/Mram_sevenseg61 (sevenseg_6_OBUF)
      OBUF:I->O                 2.571          sevenseg_6_OBUF (sevenseg<6>)
     ----------------------------------------
-    Total                      6.470ns (3.682ns logic, 2.788ns route)
-                                       (56.9% logic, 43.1% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_comp/s_0_G'
-  Total number of paths / destination ports: 8 / 8
--------------------------------------------------------------------------
-Offset:              6.572ns (Levels of Logic = 4)
-  Source:            Inst_comp/s_0 (LATCH)
-  Destination:       sevenseg<5> (PAD)
-  Source Clock:      Inst_comp/s_0_G falling
-
-  Data Path: Inst_comp/s_0 to sevenseg<5>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               1   0.498   0.684  Inst_comp/s_0 (Inst_comp/s_0)
-     LUT6:I4->O            1   0.203   0.580  Inst_minimux/Mmux_s23 (Inst_minimux/Mmux_s22)
-     LUT5:I4->O            8   0.205   1.050  Inst_minimux/Mmux_s24 (led_0_OBUF)
-     LUT4:I0->O            1   0.203   0.579  Inst_x7seg/Mram_sevenseg41 (sevenseg_4_OBUF)
-     OBUF:I->O                 2.571          sevenseg_4_OBUF (sevenseg<4>)
-    ----------------------------------------
-    Total                      6.572ns (3.680ns logic, 2.892ns route)
-                                       (56.0% logic, 44.0% route)
+    Total                      5.965ns (3.615ns logic, 2.350ns route)
+                                       (60.6% logic, 39.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_count/s_0_G'
   Total number of paths / destination ports: 8 / 8
 -------------------------------------------------------------------------
-Offset:              7.597ns (Levels of Logic = 5)
+Offset:              6.572ns (Levels of Logic = 4)
   Source:            Inst_count/s_0 (LATCH)
   Destination:       sevenseg<5> (PAD)
   Source Clock:      Inst_count/s_0_G falling
@@ -692,38 +649,36 @@ Offset:              7.597ns (Levels of Logic = 5)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LD:G->Q               1   0.498   0.924  Inst_count/s_0 (Inst_count/s_0)
-     LUT6:I1->O            1   0.203   0.580  Inst_minimux/Mmux_s22 (Inst_minimux/Mmux_s21)
-     LUT6:I5->O            1   0.205   0.580  Inst_minimux/Mmux_s23 (Inst_minimux/Mmux_s22)
-     LUT5:I4->O            8   0.205   1.050  Inst_minimux/Mmux_s24 (led_0_OBUF)
+     LD:G->Q               1   0.498   0.684  Inst_count/s_0 (Inst_count/s_0)
+     LUT6:I4->O            1   0.203   0.580  Inst_minimux/Mmux_s24 (Inst_minimux/Mmux_s23)
+     LUT5:I4->O            8   0.205   1.050  Inst_minimux/Mmux_s29 (led_0_OBUF)
      LUT4:I0->O            1   0.203   0.579  Inst_x7seg/Mram_sevenseg41 (sevenseg_4_OBUF)
      OBUF:I->O                 2.571          sevenseg_4_OBUF (sevenseg<4>)
     ----------------------------------------
-    Total                      7.597ns (3.885ns logic, 3.712ns route)
-                                       (51.1% logic, 48.9% route)
+    Total                      6.572ns (3.680ns logic, 2.892ns route)
+                                       (56.0% logic, 44.0% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 1373 / 12
+  Total number of paths / destination ports: 773 / 12
 -------------------------------------------------------------------------
-Delay:               9.733ns (Levels of Logic = 7)
-  Source:            btn<4> (PAD)
+Delay:               9.163ns (Levels of Logic = 6)
+  Source:            switches<6> (PAD)
   Destination:       sevenseg<5> (PAD)
 
-  Data Path: btn<4> to sevenseg<5>
+  Data Path: switches<6> to sevenseg<5>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             7   1.222   1.118  btn_4_IBUF (btn_4_IBUF)
-     LUT5:I0->O            3   0.203   1.015  Inst_minimux/_n0051<4>1 (Inst_minimux/_n0051)
-     LUT6:I0->O            1   0.203   0.580  Inst_minimux/Mmux_s22 (Inst_minimux/Mmux_s21)
-     LUT6:I5->O            1   0.205   0.580  Inst_minimux/Mmux_s23 (Inst_minimux/Mmux_s22)
-     LUT5:I4->O            8   0.205   1.050  Inst_minimux/Mmux_s24 (led_0_OBUF)
+     IBUF:I->O            14   1.222   1.322  switches_6_IBUF (switches_6_IBUF)
+     LUT6:I0->O            1   0.203   0.924  Inst_minimux/Mmux_s28_SW0 (N129)
+     LUT6:I1->O            1   0.203   0.684  Inst_minimux/Mmux_s28 (Inst_minimux/Mmux_s27)
+     LUT5:I3->O            8   0.203   1.050  Inst_minimux/Mmux_s29 (led_0_OBUF)
      LUT4:I0->O            1   0.203   0.579  Inst_x7seg/Mram_sevenseg41 (sevenseg_4_OBUF)
      OBUF:I->O                 2.571          sevenseg_4_OBUF (sevenseg<4>)
     ----------------------------------------
-    Total                      9.733ns (4.812ns logic, 4.921ns route)
-                                       (49.4% logic, 50.6% route)
+    Total                      9.163ns (4.605ns logic, 4.558ns route)
+                                       (50.3% logic, 49.7% route)
 
 =========================================================================
 
@@ -733,14 +688,15 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 4.29 secs
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.56 secs
  
 --> 
 
-Total memory usage is 234652 kilobytes
+
+Total memory usage is 359556 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    6 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
 Number of infos    :    2 (   0 filtered)
 

@@ -1,0 +1,20 @@
+Release 12.4 - netgen M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -ar Structure -tm shift_vector -w -dir
+netgen/synthesis -ofmt vhdl -sim shift_vector.ngc shift_vector_synthesis.vhd  
+
+Reading design 'shift_vector.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist
+'/home/m1/delbar/Workspace/m1s1aeo/TP4/netgen/synthesis/shift_vector_synthesis.v
+hd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 193088 kilobytes

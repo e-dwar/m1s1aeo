@@ -45,7 +45,7 @@ begin
 		for I in 0 to 7 loop 
 			N := a(I) xor N;
       end loop;
-		s <= N;
+		s <= not N;
 	end process;
 
 

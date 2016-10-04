@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/m1/delbar/Workspace/m1s1aeo/TP4EX/flipflopasync.xst" -ofn "/home/m1/delbar/Workspace/m1s1aeo/TP4EX/flipflopasync.syr" 

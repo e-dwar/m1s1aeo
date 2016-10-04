@@ -1,0 +1,1 @@
+vhdtdtfi -prj TP4 -o /home/m1/delbar/Workspace/m1s1aeo/TP4/clkdiv.vhi -lib work /home/m1/delbar/Workspace/m1s1aeo/TP4//clkdiv.vhd -module clkdiv -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

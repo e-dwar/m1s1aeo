@@ -47,12 +47,12 @@ begin
    
     with choice select
         s <= add4 when "00000",
-             '0' & and4 when "00001",
-             '0' & or4 when "00010",
-             '0' & xor4 when "00011",
-             '0' & comp when "00100",
-             '0' & count when "10000",
-             "0000" & parity when others;
+             '0' & and4 when "00001",     -- D9
+             '0' & or4 when "00010",      -- C4
+             '0' & xor4 when "00011",     -- D9 + C4
+             '0' & comp when "00100",     -- A8
+             '0' & count when "10000",    -- B8
+             "0000" & parity when others; -- C9
 				 
 end Behavioral;
 

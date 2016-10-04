@@ -1,8 +1,8 @@
 --------------------------------------------------------------------------------
-Release 12.4 Trace  (nt)
+Release 12.4 Trace  (lin64)
 Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+/opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
 3 -fastpaths -xml calc.twx calc.ncd -o calc.twr calc.pcf -ucf calc.ucf
 
 Design file:              calc.ncd
@@ -35,46 +35,46 @@ Clock switches<0> to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-led<0>      |        13.927(F)|      SLOW  |         8.244(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.006(F)|      SLOW  |         8.265(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-led<1>      |        14.469(F)|      SLOW  |         8.353(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-led<2>      |        15.902(F)|      SLOW  |         8.787(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-led<3>      |        15.902(F)|      SLOW  |         8.411(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<0> |        14.180(F)|      SLOW  |         8.287(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.259(F)|      SLOW  |         8.308(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.096(F)|      SLOW  |         8.702(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.866(F)|      SLOW  |         8.633(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.539(F)|      SLOW  |         8.755(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<1> |        13.879(F)|      SLOW  |         8.141(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.958(F)|      SLOW  |         8.162(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.887(F)|      SLOW  |         8.539(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.477(F)|      SLOW  |         8.444(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.210(F)|      SLOW  |         8.553(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<2> |        14.391(F)|      SLOW  |         8.447(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.470(F)|      SLOW  |         8.468(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.028(F)|      SLOW  |         8.650(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        16.012(F)|      SLOW  |         8.715(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.729(F)|      SLOW  |         8.860(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<3> |        13.855(F)|      SLOW  |         8.089(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.934(F)|      SLOW  |         8.110(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.771(F)|      SLOW  |         8.504(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.541(F)|      SLOW  |         8.435(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.214(F)|      SLOW  |         8.557(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<4> |        14.668(F)|      SLOW  |         8.634(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.747(F)|      SLOW  |         8.655(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.085(F)|      SLOW  |         8.684(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        16.170(F)|      SLOW  |         8.815(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.683(F)|      SLOW  |         8.796(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<5> |        14.114(F)|      SLOW  |         8.297(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.193(F)|      SLOW  |         8.318(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.751(F)|      SLOW  |         8.500(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.735(F)|      SLOW  |         8.565(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.452(F)|      SLOW  |         8.710(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<6> |        14.576(F)|      SLOW  |         8.598(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.655(F)|      SLOW  |         8.619(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.993(F)|      SLOW  |         8.648(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        16.078(F)|      SLOW  |         8.779(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.591(F)|      SLOW  |         8.760(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+led<0>      |        14.320(F)|      SLOW  |         8.648(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.966(F)|      SLOW  |         8.720(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+led<1>      |        15.413(F)|      SLOW  |         8.539(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+led<2>      |        16.202(F)|      SLOW  |         9.224(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+led<3>      |        16.710(F)|      SLOW  |         9.166(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<0> |        14.939(F)|      SLOW  |         8.979(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.585(F)|      SLOW  |         9.051(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        16.214(F)|      SLOW  |         8.949(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.540(F)|      SLOW  |         9.371(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.845(F)|      SLOW  |         9.165(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<1> |        14.282(F)|      SLOW  |         8.490(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.928(F)|      SLOW  |         8.562(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.291(F)|      SLOW  |         8.396(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.219(F)|      SLOW  |         9.177(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.497(F)|      SLOW  |         8.913(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<2> |        14.784(F)|      SLOW  |         8.851(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.430(F)|      SLOW  |         8.923(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.983(F)|      SLOW  |         8.823(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.730(F)|      SLOW  |         9.476(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        17.114(F)|      SLOW  |         9.338(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<3> |        14.614(F)|      SLOW  |         8.781(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.260(F)|      SLOW  |         8.853(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.889(F)|      SLOW  |         8.751(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.215(F)|      SLOW  |         9.173(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.520(F)|      SLOW  |         8.967(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<4> |        15.061(F)|      SLOW  |         9.038(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.707(F)|      SLOW  |         9.110(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        16.000(F)|      SLOW  |         8.818(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.693(F)|      SLOW  |         9.421(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        17.321(F)|      SLOW  |         9.466(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<5> |        14.507(F)|      SLOW  |         8.701(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.153(F)|      SLOW  |         8.773(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.706(F)|      SLOW  |         8.673(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.453(F)|      SLOW  |         9.326(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.837(F)|      SLOW  |         9.188(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<6> |        14.969(F)|      SLOW  |         9.002(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.615(F)|      SLOW  |         9.074(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.908(F)|      SLOW  |         8.782(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.601(F)|      SLOW  |         9.385(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        17.229(F)|      SLOW  |         9.430(F)|      FAST  |Inst_count/s_3_G  |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock switches<1> to Pad
@@ -82,46 +82,46 @@ Clock switches<1> to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-led<0>      |        13.670(F)|      SLOW  |         8.012(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.715(F)|      SLOW  |         8.008(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-led<1>      |        13.993(F)|      SLOW  |         7.914(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-led<2>      |        15.426(F)|      SLOW  |         8.348(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-led<3>      |        15.426(F)|      SLOW  |         7.972(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<0> |        13.923(F)|      SLOW  |         8.055(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.968(F)|      SLOW  |         8.051(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.620(F)|      SLOW  |         8.263(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.390(F)|      SLOW  |         8.194(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.063(F)|      SLOW  |         8.316(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<1> |        13.622(F)|      SLOW  |         7.909(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.667(F)|      SLOW  |         7.905(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.411(F)|      SLOW  |         8.100(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.001(F)|      SLOW  |         8.005(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.734(F)|      SLOW  |         8.114(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<2> |        14.134(F)|      SLOW  |         8.215(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.179(F)|      SLOW  |         8.211(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.552(F)|      SLOW  |         8.211(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.536(F)|      SLOW  |         8.276(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.253(F)|      SLOW  |         8.421(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<3> |        13.598(F)|      SLOW  |         7.857(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.643(F)|      SLOW  |         7.853(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.295(F)|      SLOW  |         8.065(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.065(F)|      SLOW  |         7.996(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.738(F)|      SLOW  |         8.118(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<4> |        14.411(F)|      SLOW  |         8.402(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.456(F)|      SLOW  |         8.398(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.609(F)|      SLOW  |         8.245(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.694(F)|      SLOW  |         8.376(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.207(F)|      SLOW  |         8.357(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<5> |        13.857(F)|      SLOW  |         8.065(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.902(F)|      SLOW  |         8.061(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.275(F)|      SLOW  |         8.061(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.259(F)|      SLOW  |         8.126(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.976(F)|      SLOW  |         8.271(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<6> |        14.319(F)|      SLOW  |         8.366(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.364(F)|      SLOW  |         8.362(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.517(F)|      SLOW  |         8.209(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.602(F)|      SLOW  |         8.340(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.115(F)|      SLOW  |         8.321(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+led<0>      |        13.701(F)|      SLOW  |         8.122(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.570(F)|      SLOW  |         8.409(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+led<1>      |        14.689(F)|      SLOW  |         8.034(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+led<2>      |        15.478(F)|      SLOW  |         8.666(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+led<3>      |        15.986(F)|      SLOW  |         8.608(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<0> |        14.320(F)|      SLOW  |         8.453(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.189(F)|      SLOW  |         8.740(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.490(F)|      SLOW  |         8.444(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.816(F)|      SLOW  |         8.813(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.121(F)|      SLOW  |         8.607(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<1> |        13.663(F)|      SLOW  |         7.964(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.532(F)|      SLOW  |         8.251(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.567(F)|      SLOW  |         7.891(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.495(F)|      SLOW  |         8.619(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.773(F)|      SLOW  |         8.355(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<2> |        14.165(F)|      SLOW  |         8.325(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.034(F)|      SLOW  |         8.612(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.259(F)|      SLOW  |         8.318(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.006(F)|      SLOW  |         8.918(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.390(F)|      SLOW  |         8.780(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<3> |        13.995(F)|      SLOW  |         8.255(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.864(F)|      SLOW  |         8.542(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.165(F)|      SLOW  |         8.246(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.491(F)|      SLOW  |         8.615(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.796(F)|      SLOW  |         8.409(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<4> |        14.442(F)|      SLOW  |         8.512(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.311(F)|      SLOW  |         8.799(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.276(F)|      SLOW  |         8.313(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.969(F)|      SLOW  |         8.863(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.597(F)|      SLOW  |         8.908(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<5> |        13.888(F)|      SLOW  |         8.175(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.757(F)|      SLOW  |         8.462(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.982(F)|      SLOW  |         8.168(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.729(F)|      SLOW  |         8.768(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.113(F)|      SLOW  |         8.630(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<6> |        14.350(F)|      SLOW  |         8.476(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.219(F)|      SLOW  |         8.763(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.184(F)|      SLOW  |         8.277(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.877(F)|      SLOW  |         8.827(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.505(F)|      SLOW  |         8.872(F)|      FAST  |Inst_count/s_3_G  |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock switches<2> to Pad
@@ -129,46 +129,46 @@ Clock switches<2> to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-led<0>      |        12.599(F)|      SLOW  |         7.351(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.421(F)|      SLOW  |         7.775(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-led<1>      |        14.192(F)|      SLOW  |         7.879(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-led<2>      |        15.625(F)|      SLOW  |         8.391(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-led<3>      |        15.625(F)|      SLOW  |         8.094(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<0> |        12.852(F)|      SLOW  |         7.394(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.674(F)|      SLOW  |         7.818(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.819(F)|      SLOW  |         8.228(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.589(F)|      SLOW  |         8.237(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.262(F)|      SLOW  |         8.438(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<1> |        12.551(F)|      SLOW  |         7.248(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.373(F)|      SLOW  |         7.672(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.610(F)|      SLOW  |         8.065(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.200(F)|      SLOW  |         8.048(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.933(F)|      SLOW  |         8.236(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<2> |        13.063(F)|      SLOW  |         7.554(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.885(F)|      SLOW  |         7.978(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.751(F)|      SLOW  |         8.176(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.735(F)|      SLOW  |         8.319(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.452(F)|      SLOW  |         8.543(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<3> |        12.527(F)|      SLOW  |         7.196(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.349(F)|      SLOW  |         7.620(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.494(F)|      SLOW  |         8.030(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.264(F)|      SLOW  |         8.039(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.937(F)|      SLOW  |         8.240(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<4> |        13.340(F)|      SLOW  |         7.741(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.162(F)|      SLOW  |         8.165(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.808(F)|      SLOW  |         8.210(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.893(F)|      SLOW  |         8.419(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.406(F)|      SLOW  |         8.479(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<5> |        12.786(F)|      SLOW  |         7.404(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.608(F)|      SLOW  |         7.828(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.474(F)|      SLOW  |         8.026(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.458(F)|      SLOW  |         8.169(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.175(F)|      SLOW  |         8.393(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<6> |        13.248(F)|      SLOW  |         7.705(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.070(F)|      SLOW  |         8.129(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.716(F)|      SLOW  |         8.174(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.801(F)|      SLOW  |         8.383(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.314(F)|      SLOW  |         8.443(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+led<0>      |        13.502(F)|      SLOW  |         8.059(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.413(F)|      SLOW  |         8.293(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+led<1>      |        14.786(F)|      SLOW  |         8.077(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+led<2>      |        15.575(F)|      SLOW  |         8.709(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+led<3>      |        16.083(F)|      SLOW  |         8.651(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<0> |        14.121(F)|      SLOW  |         8.390(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.032(F)|      SLOW  |         8.624(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.587(F)|      SLOW  |         8.487(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.913(F)|      SLOW  |         8.856(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.218(F)|      SLOW  |         8.650(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<1> |        13.464(F)|      SLOW  |         7.901(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.375(F)|      SLOW  |         8.135(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.664(F)|      SLOW  |         7.934(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.592(F)|      SLOW  |         8.662(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.870(F)|      SLOW  |         8.398(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<2> |        13.966(F)|      SLOW  |         8.262(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.877(F)|      SLOW  |         8.496(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.356(F)|      SLOW  |         8.361(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.103(F)|      SLOW  |         8.961(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.487(F)|      SLOW  |         8.823(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<3> |        13.796(F)|      SLOW  |         8.192(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.707(F)|      SLOW  |         8.426(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.262(F)|      SLOW  |         8.289(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.588(F)|      SLOW  |         8.658(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.893(F)|      SLOW  |         8.452(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<4> |        14.243(F)|      SLOW  |         8.449(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.154(F)|      SLOW  |         8.683(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.373(F)|      SLOW  |         8.356(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.066(F)|      SLOW  |         8.906(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.694(F)|      SLOW  |         8.951(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<5> |        13.689(F)|      SLOW  |         8.112(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.600(F)|      SLOW  |         8.346(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.079(F)|      SLOW  |         8.211(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.826(F)|      SLOW  |         8.811(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.210(F)|      SLOW  |         8.673(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<6> |        14.151(F)|      SLOW  |         8.413(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.062(F)|      SLOW  |         8.647(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.281(F)|      SLOW  |         8.320(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.974(F)|      SLOW  |         8.870(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.602(F)|      SLOW  |         8.915(F)|      FAST  |Inst_count/s_3_G  |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock switches<3> to Pad
@@ -176,46 +176,46 @@ Clock switches<3> to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-led<0>      |        13.024(F)|      SLOW  |         7.644(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.091(F)|      SLOW  |         8.256(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-led<1>      |        14.741(F)|      SLOW  |         7.537(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-led<2>      |        16.013(F)|      SLOW  |         7.998(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-led<3>      |        16.013(F)|      SLOW  |         7.976(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<0> |        13.277(F)|      SLOW  |         7.687(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.344(F)|      SLOW  |         8.299(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.368(F)|      SLOW  |         7.886(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.977(F)|      SLOW  |         7.844(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.650(F)|      SLOW  |         8.320(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<1> |        12.976(F)|      SLOW  |         7.541(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.043(F)|      SLOW  |         8.153(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.159(F)|      SLOW  |         7.723(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.588(F)|      SLOW  |         7.655(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.321(F)|      SLOW  |         8.118(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<2> |        13.488(F)|      SLOW  |         7.847(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.555(F)|      SLOW  |         8.459(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.300(F)|      SLOW  |         7.834(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        16.123(F)|      SLOW  |         7.926(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.840(F)|      SLOW  |         8.425(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<3> |        12.952(F)|      SLOW  |         7.489(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.019(F)|      SLOW  |         8.101(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.043(F)|      SLOW  |         7.688(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.652(F)|      SLOW  |         7.646(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.325(F)|      SLOW  |         8.122(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<4> |        13.765(F)|      SLOW  |         8.034(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.832(F)|      SLOW  |         8.646(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.357(F)|      SLOW  |         7.868(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        16.281(F)|      SLOW  |         8.026(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.794(F)|      SLOW  |         8.361(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<5> |        13.211(F)|      SLOW  |         7.697(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.278(F)|      SLOW  |         8.309(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.023(F)|      SLOW  |         7.684(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.846(F)|      SLOW  |         7.776(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.563(F)|      SLOW  |         8.275(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<6> |        13.673(F)|      SLOW  |         7.998(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.740(F)|      SLOW  |         8.610(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.265(F)|      SLOW  |         7.832(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        16.189(F)|      SLOW  |         7.990(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.702(F)|      SLOW  |         8.325(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+led<0>      |        13.080(F)|      SLOW  |         7.771(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.707(F)|      SLOW  |         8.518(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+led<1>      |        14.727(F)|      SLOW  |         7.999(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+led<2>      |        15.516(F)|      SLOW  |         8.315(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+led<3>      |        16.024(F)|      SLOW  |         8.460(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<0> |        13.699(F)|      SLOW  |         8.102(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.326(F)|      SLOW  |         8.849(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.528(F)|      SLOW  |         8.409(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.854(F)|      SLOW  |         8.462(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.159(F)|      SLOW  |         8.459(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<1> |        13.042(F)|      SLOW  |         7.613(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.669(F)|      SLOW  |         8.360(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.605(F)|      SLOW  |         7.856(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.533(F)|      SLOW  |         8.268(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.811(F)|      SLOW  |         8.207(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<2> |        13.544(F)|      SLOW  |         7.974(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.171(F)|      SLOW  |         8.721(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.297(F)|      SLOW  |         8.283(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.044(F)|      SLOW  |         8.567(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.428(F)|      SLOW  |         8.632(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<3> |        13.374(F)|      SLOW  |         7.904(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.001(F)|      SLOW  |         8.651(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.203(F)|      SLOW  |         8.211(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.529(F)|      SLOW  |         8.264(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.834(F)|      SLOW  |         8.261(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<4> |        13.821(F)|      SLOW  |         8.161(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.448(F)|      SLOW  |         8.908(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.314(F)|      SLOW  |         8.278(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.007(F)|      SLOW  |         8.512(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.635(F)|      SLOW  |         8.760(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<5> |        13.267(F)|      SLOW  |         7.824(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.894(F)|      SLOW  |         8.571(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.020(F)|      SLOW  |         8.133(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.767(F)|      SLOW  |         8.417(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.151(F)|      SLOW  |         8.482(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<6> |        13.729(F)|      SLOW  |         8.125(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.356(F)|      SLOW  |         8.872(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.222(F)|      SLOW  |         8.242(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.915(F)|      SLOW  |         8.476(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.543(F)|      SLOW  |         8.724(F)|      FAST  |Inst_count/s_3_G  |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock switches<4> to Pad
@@ -223,46 +223,46 @@ Clock switches<4> to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-led<0>      |        13.818(F)|      SLOW  |         8.089(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.817(F)|      SLOW  |         8.055(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-led<1>      |        14.417(F)|      SLOW  |         7.637(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-led<2>      |        15.689(F)|      SLOW  |         7.931(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-led<3>      |        15.689(F)|      SLOW  |         8.245(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<0> |        14.071(F)|      SLOW  |         8.132(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.070(F)|      SLOW  |         8.098(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.044(F)|      SLOW  |         7.986(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.653(F)|      SLOW  |         7.777(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.326(F)|      SLOW  |         8.589(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<1> |        13.770(F)|      SLOW  |         7.986(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.769(F)|      SLOW  |         7.952(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.835(F)|      SLOW  |         7.823(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.264(F)|      SLOW  |         7.588(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.997(F)|      SLOW  |         8.387(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<2> |        14.282(F)|      SLOW  |         8.292(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.281(F)|      SLOW  |         8.258(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.976(F)|      SLOW  |         7.934(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.799(F)|      SLOW  |         7.859(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.516(F)|      SLOW  |         8.694(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<3> |        13.746(F)|      SLOW  |         7.934(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.745(F)|      SLOW  |         7.900(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.719(F)|      SLOW  |         7.788(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.328(F)|      SLOW  |         7.579(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.001(F)|      SLOW  |         8.391(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<4> |        14.559(F)|      SLOW  |         8.479(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.558(F)|      SLOW  |         8.445(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        15.033(F)|      SLOW  |         7.968(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.957(F)|      SLOW  |         7.959(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.470(F)|      SLOW  |         8.630(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<5> |        14.005(F)|      SLOW  |         8.142(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.004(F)|      SLOW  |         8.108(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.699(F)|      SLOW  |         7.784(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.522(F)|      SLOW  |         7.709(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.239(F)|      SLOW  |         8.544(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<6> |        14.467(F)|      SLOW  |         8.443(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.466(F)|      SLOW  |         8.409(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.941(F)|      SLOW  |         7.932(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        15.865(F)|      SLOW  |         7.923(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        16.378(F)|      SLOW  |         8.594(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+led<0>      |        14.070(F)|      SLOW  |         8.493(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.995(F)|      SLOW  |         8.830(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+led<1>      |        15.593(F)|      SLOW  |         8.317(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+led<2>      |        16.382(F)|      SLOW  |         8.854(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+led<3>      |        16.890(F)|      SLOW  |         8.999(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<0> |        14.689(F)|      SLOW  |         8.824(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.614(F)|      SLOW  |         9.161(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        16.394(F)|      SLOW  |         8.727(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.720(F)|      SLOW  |         9.001(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        17.025(F)|      SLOW  |         8.998(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<1> |        14.032(F)|      SLOW  |         8.335(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.957(F)|      SLOW  |         8.672(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.471(F)|      SLOW  |         8.174(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.399(F)|      SLOW  |         8.807(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.677(F)|      SLOW  |         8.746(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<2> |        14.534(F)|      SLOW  |         8.696(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.459(F)|      SLOW  |         9.033(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        16.163(F)|      SLOW  |         8.601(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.910(F)|      SLOW  |         9.106(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        17.294(F)|      SLOW  |         9.171(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<3> |        14.364(F)|      SLOW  |         8.626(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.289(F)|      SLOW  |         8.963(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        16.069(F)|      SLOW  |         8.529(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.395(F)|      SLOW  |         8.803(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.700(F)|      SLOW  |         8.800(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<4> |        14.811(F)|      SLOW  |         8.883(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.736(F)|      SLOW  |         9.220(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        16.180(F)|      SLOW  |         8.596(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.873(F)|      SLOW  |         9.051(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        17.501(F)|      SLOW  |         9.299(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<5> |        14.257(F)|      SLOW  |         8.546(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.182(F)|      SLOW  |         8.883(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.886(F)|      SLOW  |         8.451(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.633(F)|      SLOW  |         8.956(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        17.017(F)|      SLOW  |         9.021(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<6> |        14.719(F)|      SLOW  |         8.847(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        15.644(F)|      SLOW  |         9.184(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        16.088(F)|      SLOW  |         8.560(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        16.781(F)|      SLOW  |         9.015(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        17.409(F)|      SLOW  |         9.263(F)|      FAST  |Inst_count/s_3_G  |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock switches<5> to Pad
@@ -270,46 +270,46 @@ Clock switches<5> to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-led<0>      |        13.598(F)|      SLOW  |         7.952(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.172(F)|      SLOW  |         7.697(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-led<1>      |        13.155(F)|      SLOW  |         7.330(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-led<2>      |        14.600(F)|      SLOW  |         8.050(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-led<3>      |        14.600(F)|      SLOW  |         7.989(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<0> |        13.851(F)|      SLOW  |         7.995(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.425(F)|      SLOW  |         7.740(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.782(F)|      SLOW  |         7.679(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.564(F)|      SLOW  |         7.896(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.237(F)|      SLOW  |         8.333(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<1> |        13.550(F)|      SLOW  |         7.849(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.124(F)|      SLOW  |         7.594(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.573(F)|      SLOW  |         7.516(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.175(F)|      SLOW  |         7.707(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        14.908(F)|      SLOW  |         8.131(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<2> |        14.062(F)|      SLOW  |         8.155(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.636(F)|      SLOW  |         7.900(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.714(F)|      SLOW  |         7.627(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.710(F)|      SLOW  |         7.978(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.427(F)|      SLOW  |         8.438(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<3> |        13.526(F)|      SLOW  |         7.797(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.100(F)|      SLOW  |         7.542(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.457(F)|      SLOW  |         7.481(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.239(F)|      SLOW  |         7.698(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        14.912(F)|      SLOW  |         8.135(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<4> |        14.339(F)|      SLOW  |         8.342(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.913(F)|      SLOW  |         8.087(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.771(F)|      SLOW  |         7.661(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.868(F)|      SLOW  |         8.078(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.381(F)|      SLOW  |         8.374(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<5> |        13.785(F)|      SLOW  |         8.005(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.359(F)|      SLOW  |         7.750(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.437(F)|      SLOW  |         7.477(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.433(F)|      SLOW  |         7.828(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.150(F)|      SLOW  |         8.288(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<6> |        14.247(F)|      SLOW  |         8.306(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.821(F)|      SLOW  |         8.051(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.679(F)|      SLOW  |         7.625(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.776(F)|      SLOW  |         8.042(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.289(F)|      SLOW  |         8.338(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+led<0>      |        13.566(F)|      SLOW  |         8.037(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        13.961(F)|      SLOW  |         8.093(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+led<1>      |        13.919(F)|      SLOW  |         7.854(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+led<2>      |        14.936(F)|      SLOW  |         8.380(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+led<3>      |        15.607(F)|      SLOW  |         8.525(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<0> |        14.185(F)|      SLOW  |         8.368(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.580(F)|      SLOW  |         8.424(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.720(F)|      SLOW  |         8.264(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.274(F)|      SLOW  |         8.527(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.742(F)|      SLOW  |         8.524(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<1> |        13.528(F)|      SLOW  |         7.879(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        13.923(F)|      SLOW  |         7.935(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        13.797(F)|      SLOW  |         7.711(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.953(F)|      SLOW  |         8.333(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.394(F)|      SLOW  |         8.272(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<2> |        14.030(F)|      SLOW  |         8.240(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.425(F)|      SLOW  |         8.296(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.489(F)|      SLOW  |         8.138(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.464(F)|      SLOW  |         8.632(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.011(F)|      SLOW  |         8.697(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<3> |        13.860(F)|      SLOW  |         8.170(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.255(F)|      SLOW  |         8.226(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.395(F)|      SLOW  |         8.066(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.949(F)|      SLOW  |         8.329(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.417(F)|      SLOW  |         8.326(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<4> |        14.307(F)|      SLOW  |         8.427(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.702(F)|      SLOW  |         8.483(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.506(F)|      SLOW  |         8.133(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.427(F)|      SLOW  |         8.577(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.218(F)|      SLOW  |         8.825(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<5> |        13.753(F)|      SLOW  |         8.090(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.148(F)|      SLOW  |         8.146(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.212(F)|      SLOW  |         7.988(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.187(F)|      SLOW  |         8.482(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.734(F)|      SLOW  |         8.547(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<6> |        14.215(F)|      SLOW  |         8.391(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.610(F)|      SLOW  |         8.447(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.414(F)|      SLOW  |         8.097(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.335(F)|      SLOW  |         8.541(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.126(F)|      SLOW  |         8.789(F)|      FAST  |Inst_count/s_3_G  |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock switches<6> to Pad
@@ -317,46 +317,46 @@ Clock switches<6> to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-led<0>      |        13.018(F)|      SLOW  |         7.658(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.064(F)|      SLOW  |         7.651(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-led<1>      |        13.219(F)|      SLOW  |         7.459(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-led<2>      |        14.042(F)|      SLOW  |         8.149(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-led<3>      |        14.708(F)|      SLOW  |         8.039(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<0> |        13.271(F)|      SLOW  |         7.701(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.317(F)|      SLOW  |         7.694(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.846(F)|      SLOW  |         7.808(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.006(F)|      SLOW  |         7.995(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.345(F)|      SLOW  |         8.383(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<1> |        12.970(F)|      SLOW  |         7.555(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.016(F)|      SLOW  |         7.548(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.637(F)|      SLOW  |         7.645(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.617(F)|      SLOW  |         7.806(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.016(F)|      SLOW  |         8.181(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<2> |        13.482(F)|      SLOW  |         7.861(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.528(F)|      SLOW  |         7.854(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.778(F)|      SLOW  |         7.756(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.152(F)|      SLOW  |         8.077(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.535(F)|      SLOW  |         8.488(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<3> |        12.946(F)|      SLOW  |         7.503(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        12.992(F)|      SLOW  |         7.496(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.521(F)|      SLOW  |         7.610(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.681(F)|      SLOW  |         7.797(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.020(F)|      SLOW  |         8.185(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<4> |        13.759(F)|      SLOW  |         8.048(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.805(F)|      SLOW  |         8.041(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.835(F)|      SLOW  |         7.790(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.310(F)|      SLOW  |         8.177(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.489(F)|      SLOW  |         8.424(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<5> |        13.205(F)|      SLOW  |         7.711(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.251(F)|      SLOW  |         7.704(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.501(F)|      SLOW  |         7.606(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.875(F)|      SLOW  |         7.927(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.258(F)|      SLOW  |         8.338(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<6> |        13.667(F)|      SLOW  |         8.012(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.713(F)|      SLOW  |         8.005(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.743(F)|      SLOW  |         7.754(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        14.218(F)|      SLOW  |         8.141(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        15.397(F)|      SLOW  |         8.388(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+led<0>      |        12.729(F)|      SLOW  |         7.461(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.068(F)|      SLOW  |         8.285(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+led<1>      |        14.482(F)|      SLOW  |         8.221(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+led<2>      |        14.730(F)|      SLOW  |         8.862(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+led<3>      |        15.455(F)|      SLOW  |         8.804(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<0> |        13.348(F)|      SLOW  |         7.792(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.687(F)|      SLOW  |         8.616(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.283(F)|      SLOW  |         8.631(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.068(F)|      SLOW  |         9.009(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.590(F)|      SLOW  |         8.803(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<1> |        12.691(F)|      SLOW  |         7.303(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.030(F)|      SLOW  |         8.127(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.360(F)|      SLOW  |         8.078(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.747(F)|      SLOW  |         8.815(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.242(F)|      SLOW  |         8.551(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<2> |        13.193(F)|      SLOW  |         7.664(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.532(F)|      SLOW  |         8.488(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.052(F)|      SLOW  |         8.505(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.258(F)|      SLOW  |         9.114(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.859(F)|      SLOW  |         8.976(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<3> |        13.023(F)|      SLOW  |         7.594(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.362(F)|      SLOW  |         8.418(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.958(F)|      SLOW  |         8.433(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.743(F)|      SLOW  |         8.811(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.265(F)|      SLOW  |         8.605(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<4> |        13.470(F)|      SLOW  |         7.851(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.809(F)|      SLOW  |         8.675(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        15.069(F)|      SLOW  |         8.500(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.221(F)|      SLOW  |         9.059(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        16.066(F)|      SLOW  |         9.104(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<5> |        12.916(F)|      SLOW  |         7.514(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.255(F)|      SLOW  |         8.338(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.775(F)|      SLOW  |         8.355(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.981(F)|      SLOW  |         8.964(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.582(F)|      SLOW  |         8.826(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<6> |        13.378(F)|      SLOW  |         7.815(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.717(F)|      SLOW  |         8.639(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.977(F)|      SLOW  |         8.464(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        15.129(F)|      SLOW  |         9.023(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        15.974(F)|      SLOW  |         9.068(F)|      FAST  |Inst_count/s_3_G  |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock switches<7> to Pad
@@ -364,46 +364,46 @@ Clock switches<7> to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-led<0>      |        13.295(F)|      SLOW  |         7.852(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.797(F)|      SLOW  |         8.143(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-led<1>      |        13.403(F)|      SLOW  |         7.914(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-led<2>      |        13.462(F)|      SLOW  |         8.020(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-led<3>      |        13.733(F)|      SLOW  |         8.023(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<0> |        13.548(F)|      SLOW  |         7.895(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.050(F)|      SLOW  |         8.186(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.030(F)|      SLOW  |         8.263(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.426(F)|      SLOW  |         7.866(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        14.370(F)|      SLOW  |         8.367(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<1> |        13.247(F)|      SLOW  |         7.749(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.749(F)|      SLOW  |         8.040(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.821(F)|      SLOW  |         8.100(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.037(F)|      SLOW  |         7.677(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        14.041(F)|      SLOW  |         8.165(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<2> |        13.759(F)|      SLOW  |         8.055(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.261(F)|      SLOW  |         8.346(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.962(F)|      SLOW  |         8.211(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.572(F)|      SLOW  |         7.948(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        14.560(F)|      SLOW  |         8.472(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<3> |        13.223(F)|      SLOW  |         7.697(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.725(F)|      SLOW  |         7.988(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.705(F)|      SLOW  |         8.065(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.101(F)|      SLOW  |         7.668(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        14.045(F)|      SLOW  |         8.169(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<4> |        14.036(F)|      SLOW  |         8.242(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.538(F)|      SLOW  |         8.533(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        14.019(F)|      SLOW  |         8.245(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.730(F)|      SLOW  |         8.048(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        14.514(F)|      SLOW  |         8.408(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<5> |        13.482(F)|      SLOW  |         7.905(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        13.984(F)|      SLOW  |         8.196(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.685(F)|      SLOW  |         8.061(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.295(F)|      SLOW  |         7.798(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        14.283(F)|      SLOW  |         8.322(F)|      FAST  |Inst_count/s_3_G  |   0.000|
-sevenseg<6> |        13.944(F)|      SLOW  |         8.206(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
-            |        14.446(F)|      SLOW  |         8.497(F)|      FAST  |Inst_count/s_0_G  |   0.000|
-            |        13.927(F)|      SLOW  |         8.209(F)|      FAST  |Inst_count/s_1_G  |   0.000|
-            |        13.638(F)|      SLOW  |         8.012(F)|      FAST  |Inst_count/s_2_G  |   0.000|
-            |        14.422(F)|      SLOW  |         8.372(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+led<0>      |        13.993(F)|      SLOW  |         8.332(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.155(F)|      SLOW  |         8.239(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+led<1>      |        13.778(F)|      SLOW  |         7.878(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+led<2>      |        13.885(F)|      SLOW  |         8.428(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+led<3>      |        14.302(F)|      SLOW  |         8.351(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<0> |        14.612(F)|      SLOW  |         8.663(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.774(F)|      SLOW  |         8.570(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.579(F)|      SLOW  |         8.288(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.223(F)|      SLOW  |         8.575(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        14.437(F)|      SLOW  |         8.350(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<1> |        13.955(F)|      SLOW  |         8.174(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.117(F)|      SLOW  |         8.081(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        13.656(F)|      SLOW  |         7.735(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        13.902(F)|      SLOW  |         8.381(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        14.089(F)|      SLOW  |         8.098(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<2> |        14.457(F)|      SLOW  |         8.535(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.619(F)|      SLOW  |         8.442(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.348(F)|      SLOW  |         8.162(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.413(F)|      SLOW  |         8.680(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        14.706(F)|      SLOW  |         8.523(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<3> |        14.287(F)|      SLOW  |         8.465(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.449(F)|      SLOW  |         8.372(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.254(F)|      SLOW  |         8.090(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        13.898(F)|      SLOW  |         8.377(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        14.112(F)|      SLOW  |         8.152(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<4> |        14.734(F)|      SLOW  |         8.722(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.896(F)|      SLOW  |         8.629(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.365(F)|      SLOW  |         8.157(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.376(F)|      SLOW  |         8.625(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        14.913(F)|      SLOW  |         8.651(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<5> |        14.180(F)|      SLOW  |         8.385(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.342(F)|      SLOW  |         8.292(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.071(F)|      SLOW  |         8.012(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.136(F)|      SLOW  |         8.530(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        14.429(F)|      SLOW  |         8.373(F)|      FAST  |Inst_count/s_3_G  |   0.000|
+sevenseg<6> |        14.642(F)|      SLOW  |         8.686(F)|      FAST  |Inst_comp/s_0_G   |   0.000|
+            |        14.804(F)|      SLOW  |         8.593(F)|      FAST  |Inst_count/s_0_G  |   0.000|
+            |        14.273(F)|      SLOW  |         8.121(F)|      FAST  |Inst_count/s_1_G  |   0.000|
+            |        14.284(F)|      SLOW  |         8.589(F)|      FAST  |Inst_count/s_2_G  |   0.000|
+            |        14.821(F)|      SLOW  |         8.615(F)|      FAST  |Inst_count/s_3_G  |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock switches<0>
@@ -411,14 +411,14 @@ Clock to Setup on destination clock switches<0>
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-switches<0>    |         |         |    1.368|    1.368|
-switches<1>    |         |         |    0.892|    0.892|
-switches<2>    |         |         |    1.091|    1.091|
-switches<3>    |         |         |    1.479|    1.479|
-switches<4>    |         |         |    1.155|    1.155|
-switches<5>    |         |         |    0.252|    0.252|
-switches<6>    |         |         |    0.099|    0.099|
-switches<7>    |         |         |    0.226|    0.226|
+switches<0>    |         |         |    0.898|    0.898|
+switches<1>    |         |         |    0.174|    0.174|
+switches<2>    |         |         |    0.271|    0.271|
+switches<3>    |         |         |    0.212|    0.212|
+switches<4>    |         |         |    1.078|    1.078|
+switches<5>    |         |         |   -0.214|   -0.214|
+switches<6>    |         |         |   -0.021|   -0.021|
+switches<7>    |         |         |   -0.101|   -0.101|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock switches<1>
@@ -426,14 +426,14 @@ Clock to Setup on destination clock switches<1>
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-switches<0>    |         |         |    1.830|    1.830|
-switches<1>    |         |         |    1.354|    1.354|
-switches<2>    |         |         |    1.553|    1.553|
-switches<3>    |         |         |    1.941|    1.941|
-switches<4>    |         |         |    1.617|    1.617|
-switches<5>    |         |         |    0.528|    0.528|
-switches<6>    |         |         |    0.561|    0.561|
-switches<7>    |         |         |    0.491|    0.491|
+switches<0>    |         |         |    1.493|    1.493|
+switches<1>    |         |         |    0.769|    0.769|
+switches<2>    |         |         |    0.866|    0.866|
+switches<3>    |         |         |    0.807|    0.807|
+switches<4>    |         |         |    1.673|    1.673|
+switches<5>    |         |         |    0.390|    0.390|
+switches<6>    |         |         |    0.484|    0.484|
+switches<7>    |         |         |    0.500|    0.500|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock switches<2>
@@ -441,14 +441,14 @@ Clock to Setup on destination clock switches<2>
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-switches<0>    |         |         |    1.899|    1.899|
-switches<1>    |         |         |    1.591|    1.591|
-switches<2>    |         |         |    1.622|    1.622|
-switches<3>    |         |         |    2.010|    2.010|
-switches<4>    |         |         |    1.739|    1.739|
-switches<5>    |         |         |    1.519|    1.519|
-switches<6>    |         |         |    0.939|    0.939|
-switches<7>    |         |         |    1.216|    1.216|
+switches<0>    |         |         |    1.438|    1.438|
+switches<1>    |         |         |    0.714|    0.714|
+switches<2>    |         |         |    0.811|    0.811|
+switches<3>    |         |         |    0.752|    0.752|
+switches<4>    |         |         |    1.618|    1.618|
+switches<5>    |         |         |    0.301|    0.301|
+switches<6>    |         |         |    0.507|    0.507|
+switches<7>    |         |         |    0.689|    0.689|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock switches<3>
@@ -456,14 +456,14 @@ Clock to Setup on destination clock switches<3>
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-switches<0>    |         |         |    2.484|    2.484|
-switches<1>    |         |         |    2.008|    2.008|
-switches<2>    |         |         |    2.207|    2.207|
-switches<3>    |         |         |    2.595|    2.595|
-switches<4>    |         |         |    2.271|    2.271|
-switches<5>    |         |         |    1.182|    1.182|
-switches<6>    |         |         |    0.701|    0.701|
-switches<7>    |         |         |    0.810|    0.810|
+switches<0>    |         |         |    1.866|    1.866|
+switches<1>    |         |         |    1.142|    1.142|
+switches<2>    |         |         |    1.239|    1.239|
+switches<3>    |         |         |    1.180|    1.180|
+switches<4>    |         |         |    2.046|    2.046|
+switches<5>    |         |         |    0.763|    0.763|
+switches<6>    |         |         |    0.683|    0.683|
+switches<7>    |         |         |    1.084|    1.084|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock switches<4>
@@ -471,14 +471,14 @@ Clock to Setup on destination clock switches<4>
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-switches<0>    |         |         |    2.576|    2.576|
-switches<1>    |         |         |    2.100|    2.100|
-switches<2>    |         |         |    2.299|    2.299|
-switches<3>    |         |         |    2.687|    2.687|
-switches<4>    |         |         |    2.363|    2.363|
-switches<5>    |         |         |    1.274|    1.274|
-switches<6>    |         |         |    0.716|    0.716|
-switches<7>    |         |         |    0.472|    0.472|
+switches<0>    |         |         |    1.276|    1.276|
+switches<1>    |         |         |    0.552|    0.552|
+switches<2>    |         |         |    0.649|    0.649|
+switches<3>    |         |         |    0.590|    0.590|
+switches<4>    |         |         |    1.456|    1.456|
+switches<5>    |         |         |    0.173|    0.173|
+switches<6>    |         |         |    0.337|    0.337|
+switches<7>    |         |         |    0.128|    0.128|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock switches<5>
@@ -486,14 +486,14 @@ Clock to Setup on destination clock switches<5>
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-switches<0>    |         |         |    2.434|    2.434|
-switches<1>    |         |         |    1.958|    1.958|
-switches<2>    |         |         |    2.157|    2.157|
-switches<3>    |         |         |    2.545|    2.545|
-switches<4>    |         |         |    2.221|    2.221|
-switches<5>    |         |         |    1.132|    1.132|
-switches<6>    |         |         |    0.861|    0.861|
-switches<7>    |         |         |    1.045|    1.045|
+switches<0>    |         |         |    1.893|    1.893|
+switches<1>    |         |         |    1.169|    1.169|
+switches<2>    |         |         |    1.266|    1.266|
+switches<3>    |         |         |    1.207|    1.207|
+switches<4>    |         |         |    2.073|    2.073|
+switches<5>    |         |         |    0.646|    0.646|
+switches<6>    |         |         |    0.962|    0.962|
+switches<7>    |         |         |    0.625|    0.625|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock switches<6>
@@ -501,14 +501,14 @@ Clock to Setup on destination clock switches<6>
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-switches<0>    |         |         |    2.254|    2.254|
-switches<1>    |         |         |    1.778|    1.778|
-switches<2>    |         |         |    1.977|    1.977|
-switches<3>    |         |         |    2.365|    2.365|
-switches<4>    |         |         |    2.041|    2.041|
-switches<5>    |         |         |    1.122|    1.122|
-switches<6>    |         |         |    0.679|    0.679|
-switches<7>    |         |         |    1.103|    1.103|
+switches<0>    |         |         |    1.749|    1.749|
+switches<1>    |         |         |    1.130|    1.130|
+switches<2>    |         |         |    0.931|    0.931|
+switches<3>    |         |         |    0.846|    0.846|
+switches<4>    |         |         |    1.712|    1.712|
+switches<5>    |         |         |    0.995|    0.995|
+switches<6>    |         |         |    0.601|    0.601|
+switches<7>    |         |         |    1.422|    1.422|
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock switches<7>
@@ -516,181 +516,181 @@ Clock to Setup on destination clock switches<7>
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-switches<0>    |         |         |    2.645|    2.645|
-switches<1>    |         |         |    2.169|    2.169|
-switches<2>    |         |         |    2.368|    2.368|
-switches<3>    |         |         |    2.756|    2.756|
-switches<4>    |         |         |    2.432|    2.432|
-switches<5>    |         |         |    1.343|    1.343|
-switches<6>    |         |         |    0.830|    0.830|
-switches<7>    |         |         |    0.548|    0.548|
+switches<0>    |         |         |    2.167|    2.167|
+switches<1>    |         |         |    1.443|    1.443|
+switches<2>    |         |         |    1.540|    1.540|
+switches<3>    |         |         |    1.481|    1.481|
+switches<4>    |         |         |    2.347|    2.347|
+switches<5>    |         |         |    1.064|    1.064|
+switches<6>    |         |         |    0.942|    0.942|
+switches<7>    |         |         |    0.238|    0.238|
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-btn<0>         |led<0>         |   13.388|
-btn<0>         |led<1>         |   13.133|
-btn<0>         |led<2>         |   14.136|
-btn<0>         |led<3>         |   13.648|
-btn<0>         |led<4>         |   11.199|
-btn<0>         |sevenseg<0>    |   14.285|
-btn<0>         |sevenseg<1>    |   13.956|
-btn<0>         |sevenseg<2>    |   14.475|
-btn<0>         |sevenseg<3>    |   13.960|
-btn<0>         |sevenseg<4>    |   14.429|
-btn<0>         |sevenseg<5>    |   14.198|
-btn<0>         |sevenseg<6>    |   14.337|
-btn<1>         |led<0>         |   14.391|
-btn<1>         |led<1>         |   14.262|
-btn<1>         |led<2>         |   15.265|
-btn<1>         |led<3>         |   14.777|
-btn<1>         |led<4>         |   12.328|
-btn<1>         |sevenseg<0>    |   15.414|
-btn<1>         |sevenseg<1>    |   15.085|
-btn<1>         |sevenseg<2>    |   15.604|
-btn<1>         |sevenseg<3>    |   15.089|
-btn<1>         |sevenseg<4>    |   15.558|
-btn<1>         |sevenseg<5>    |   15.327|
-btn<1>         |sevenseg<6>    |   15.466|
-btn<2>         |led<0>         |   13.650|
-btn<2>         |led<1>         |   13.521|
-btn<2>         |led<2>         |   14.524|
-btn<2>         |led<3>         |   14.036|
-btn<2>         |led<4>         |   11.587|
-btn<2>         |sevenseg<0>    |   14.673|
-btn<2>         |sevenseg<1>    |   14.344|
-btn<2>         |sevenseg<2>    |   14.863|
-btn<2>         |sevenseg<3>    |   14.348|
-btn<2>         |sevenseg<4>    |   14.817|
-btn<2>         |sevenseg<5>    |   14.586|
-btn<2>         |sevenseg<6>    |   14.725|
-btn<3>         |led<0>         |   13.199|
-btn<3>         |led<1>         |   13.070|
-btn<3>         |led<2>         |   14.073|
-btn<3>         |led<3>         |   13.585|
-btn<3>         |led<4>         |   11.136|
-btn<3>         |sevenseg<0>    |   14.222|
-btn<3>         |sevenseg<1>    |   13.893|
-btn<3>         |sevenseg<2>    |   14.412|
-btn<3>         |sevenseg<3>    |   13.897|
-btn<3>         |sevenseg<4>    |   14.366|
-btn<3>         |sevenseg<5>    |   14.135|
-btn<3>         |sevenseg<6>    |   14.274|
-btn<4>         |led<0>         |   13.428|
-btn<4>         |led<1>         |   13.299|
-btn<4>         |led<2>         |   14.302|
-btn<4>         |led<3>         |   13.814|
-btn<4>         |led<4>         |   11.365|
-btn<4>         |sevenseg<0>    |   14.451|
-btn<4>         |sevenseg<1>    |   14.122|
-btn<4>         |sevenseg<2>    |   14.641|
-btn<4>         |sevenseg<3>    |   14.126|
-btn<4>         |sevenseg<4>    |   14.595|
-btn<4>         |sevenseg<5>    |   14.364|
-btn<4>         |sevenseg<6>    |   14.503|
-switches<0>    |led<0>         |   11.696|
-switches<0>    |led<1>         |   12.057|
-switches<0>    |led<2>         |   12.888|
-switches<0>    |led<3>         |   13.161|
-switches<0>    |led<4>         |   10.761|
-switches<0>    |sevenseg<0>    |   13.798|
-switches<0>    |sevenseg<1>    |   13.469|
-switches<0>    |sevenseg<2>    |   13.988|
-switches<0>    |sevenseg<3>    |   13.473|
-switches<0>    |sevenseg<4>    |   13.942|
-switches<0>    |sevenseg<5>    |   13.711|
-switches<0>    |sevenseg<6>    |   13.850|
-switches<1>    |led<0>         |   11.268|
-switches<1>    |led<1>         |   12.265|
-switches<1>    |led<2>         |   13.096|
-switches<1>    |led<3>         |   13.369|
-switches<1>    |led<4>         |   10.969|
-switches<1>    |sevenseg<0>    |   14.006|
-switches<1>    |sevenseg<1>    |   13.677|
-switches<1>    |sevenseg<2>    |   14.196|
-switches<1>    |sevenseg<3>    |   13.681|
-switches<1>    |sevenseg<4>    |   14.150|
-switches<1>    |sevenseg<5>    |   13.919|
-switches<1>    |sevenseg<6>    |   14.058|
-switches<2>    |led<0>         |   11.117|
-switches<2>    |led<2>         |   11.867|
-switches<2>    |led<3>         |   11.712|
-switches<2>    |led<4>         |    9.423|
-switches<2>    |sevenseg<0>    |   12.349|
-switches<2>    |sevenseg<1>    |   12.020|
-switches<2>    |sevenseg<2>    |   12.539|
-switches<2>    |sevenseg<3>    |   12.024|
-switches<2>    |sevenseg<4>    |   12.493|
-switches<2>    |sevenseg<5>    |   12.262|
-switches<2>    |sevenseg<6>    |   12.401|
-switches<3>    |led<0>         |   11.385|
-switches<3>    |led<3>         |   12.208|
-switches<3>    |led<4>         |    9.677|
-switches<3>    |sevenseg<0>    |   12.845|
-switches<3>    |sevenseg<1>    |   12.516|
-switches<3>    |sevenseg<2>    |   13.035|
-switches<3>    |sevenseg<3>    |   12.520|
-switches<3>    |sevenseg<4>    |   12.989|
-switches<3>    |sevenseg<5>    |   12.758|
-switches<3>    |sevenseg<6>    |   12.897|
-switches<4>    |led<0>         |   11.471|
-switches<4>    |led<1>         |   12.777|
-switches<4>    |led<2>         |   13.608|
-switches<4>    |led<3>         |   13.881|
-switches<4>    |led<4>         |   11.481|
-switches<4>    |sevenseg<0>    |   14.518|
-switches<4>    |sevenseg<1>    |   14.189|
-switches<4>    |sevenseg<2>    |   14.708|
-switches<4>    |sevenseg<3>    |   14.193|
-switches<4>    |sevenseg<4>    |   14.662|
-switches<4>    |sevenseg<5>    |   14.431|
-switches<4>    |sevenseg<6>    |   14.570|
-switches<5>    |led<0>         |   11.512|
-switches<5>    |led<1>         |   12.162|
-switches<5>    |led<2>         |   12.993|
-switches<5>    |led<3>         |   13.266|
-switches<5>    |led<4>         |   10.866|
-switches<5>    |sevenseg<0>    |   13.903|
-switches<5>    |sevenseg<1>    |   13.574|
-switches<5>    |sevenseg<2>    |   14.093|
-switches<5>    |sevenseg<3>    |   13.578|
-switches<5>    |sevenseg<4>    |   14.047|
-switches<5>    |sevenseg<5>    |   13.816|
-switches<5>    |sevenseg<6>    |   13.955|
-switches<6>    |led<0>         |   11.149|
-switches<6>    |led<2>         |   11.843|
-switches<6>    |led<3>         |   11.486|
-switches<6>    |led<4>         |    9.414|
-switches<6>    |sevenseg<0>    |   12.123|
-switches<6>    |sevenseg<1>    |   11.794|
-switches<6>    |sevenseg<2>    |   12.313|
-switches<6>    |sevenseg<3>    |   11.798|
-switches<6>    |sevenseg<4>    |   12.267|
-switches<6>    |sevenseg<5>    |   12.036|
-switches<6>    |sevenseg<6>    |   12.175|
-switches<7>    |led<0>         |   11.855|
-switches<7>    |led<3>         |   11.809|
-switches<7>    |led<4>         |    9.956|
-switches<7>    |sevenseg<0>    |   12.446|
-switches<7>    |sevenseg<1>    |   12.117|
+btn<0>         |led<0>         |   14.178|
+btn<0>         |led<1>         |   13.857|
+btn<0>         |led<2>         |   13.065|
+btn<0>         |led<3>         |   14.095|
+btn<0>         |led<4>         |   11.743|
+btn<0>         |sevenseg<0>    |   14.797|
+btn<0>         |sevenseg<1>    |   14.140|
+btn<0>         |sevenseg<2>    |   14.642|
+btn<0>         |sevenseg<3>    |   14.472|
+btn<0>         |sevenseg<4>    |   14.919|
+btn<0>         |sevenseg<5>    |   14.365|
+btn<0>         |sevenseg<6>    |   14.827|
+btn<1>         |led<0>         |   14.532|
+btn<1>         |led<1>         |   14.211|
+btn<1>         |led<2>         |   13.473|
+btn<1>         |led<3>         |   14.503|
+btn<1>         |led<4>         |   12.151|
+btn<1>         |sevenseg<0>    |   15.151|
+btn<1>         |sevenseg<1>    |   14.494|
+btn<1>         |sevenseg<2>    |   14.996|
+btn<1>         |sevenseg<3>    |   14.826|
+btn<1>         |sevenseg<4>    |   15.273|
+btn<1>         |sevenseg<5>    |   14.719|
+btn<1>         |sevenseg<6>    |   15.181|
+btn<2>         |led<0>         |   13.976|
+btn<2>         |led<1>         |   13.751|
+btn<2>         |led<2>         |   13.203|
+btn<2>         |led<3>         |   14.233|
+btn<2>         |led<4>         |   11.881|
+btn<2>         |sevenseg<0>    |   14.595|
+btn<2>         |sevenseg<1>    |   14.020|
+btn<2>         |sevenseg<2>    |   14.637|
+btn<2>         |sevenseg<3>    |   14.270|
+btn<2>         |sevenseg<4>    |   14.844|
+btn<2>         |sevenseg<5>    |   14.360|
+btn<2>         |sevenseg<6>    |   14.752|
+btn<3>         |led<0>         |   13.945|
+btn<3>         |led<1>         |   13.624|
+btn<3>         |led<2>         |   12.845|
+btn<3>         |led<3>         |   13.875|
+btn<3>         |led<4>         |   11.523|
+btn<3>         |sevenseg<0>    |   14.564|
+btn<3>         |sevenseg<1>    |   13.907|
+btn<3>         |sevenseg<2>    |   14.409|
+btn<3>         |sevenseg<3>    |   14.239|
+btn<3>         |sevenseg<4>    |   14.686|
+btn<3>         |sevenseg<5>    |   14.132|
+btn<3>         |sevenseg<6>    |   14.594|
+btn<4>         |led<0>         |   13.942|
+btn<4>         |led<1>         |   14.165|
+btn<4>         |led<2>         |   13.617|
+btn<4>         |led<3>         |   14.647|
+btn<4>         |led<4>         |   12.295|
+btn<4>         |sevenseg<0>    |   14.966|
+btn<4>         |sevenseg<1>    |   14.434|
+btn<4>         |sevenseg<2>    |   15.051|
+btn<4>         |sevenseg<3>    |   14.641|
+btn<4>         |sevenseg<4>    |   15.258|
+btn<4>         |sevenseg<5>    |   14.774|
+btn<4>         |sevenseg<6>    |   15.166|
+switches<0>    |led<0>         |   12.803|
+switches<0>    |led<1>         |   14.007|
+switches<0>    |led<2>         |   13.846|
+switches<0>    |led<3>         |   15.108|
+switches<0>    |led<4>         |   12.386|
+switches<0>    |sevenseg<0>    |   15.243|
+switches<0>    |sevenseg<1>    |   14.895|
+switches<0>    |sevenseg<2>    |   15.512|
+switches<0>    |sevenseg<3>    |   14.918|
+switches<0>    |sevenseg<4>    |   15.719|
+switches<0>    |sevenseg<5>    |   15.235|
+switches<0>    |sevenseg<6>    |   15.627|
+switches<1>    |led<0>         |   12.182|
+switches<1>    |led<1>         |   13.137|
+switches<1>    |led<2>         |   12.976|
+switches<1>    |led<3>         |   14.238|
+switches<1>    |led<4>         |   11.516|
+switches<1>    |sevenseg<0>    |   14.373|
+switches<1>    |sevenseg<1>    |   14.025|
+switches<1>    |sevenseg<2>    |   14.642|
+switches<1>    |sevenseg<3>    |   14.048|
+switches<1>    |sevenseg<4>    |   14.849|
+switches<1>    |sevenseg<5>    |   14.365|
+switches<1>    |sevenseg<6>    |   14.757|
+switches<2>    |led<0>         |   11.904|
+switches<2>    |led<2>         |   11.653|
+switches<2>    |led<3>         |   12.167|
+switches<2>    |led<4>         |    9.247|
+switches<2>    |sevenseg<0>    |   12.523|
+switches<2>    |sevenseg<1>    |   11.954|
+switches<2>    |sevenseg<2>    |   12.571|
+switches<2>    |sevenseg<3>    |   12.198|
+switches<2>    |sevenseg<4>    |   12.778|
+switches<2>    |sevenseg<5>    |   12.294|
+switches<2>    |sevenseg<6>    |   12.686|
+switches<3>    |led<0>         |   12.259|
+switches<3>    |led<3>         |   12.123|
+switches<3>    |led<4>         |    9.367|
+switches<3>    |sevenseg<0>    |   12.878|
+switches<3>    |sevenseg<1>    |   12.221|
+switches<3>    |sevenseg<2>    |   12.723|
+switches<3>    |sevenseg<3>    |   12.553|
+switches<3>    |sevenseg<4>    |   13.000|
+switches<3>    |sevenseg<5>    |   12.446|
+switches<3>    |sevenseg<6>    |   12.908|
+switches<4>    |led<0>         |   12.526|
+switches<4>    |led<1>         |   12.769|
+switches<4>    |led<2>         |   12.608|
+switches<4>    |led<3>         |   13.870|
+switches<4>    |led<4>         |   11.148|
+switches<4>    |sevenseg<0>    |   14.005|
+switches<4>    |sevenseg<1>    |   13.657|
+switches<4>    |sevenseg<2>    |   14.274|
+switches<4>    |sevenseg<3>    |   13.680|
+switches<4>    |sevenseg<4>    |   14.481|
+switches<4>    |sevenseg<5>    |   13.997|
+switches<4>    |sevenseg<6>    |   14.389|
+switches<5>    |led<0>         |   12.215|
+switches<5>    |led<1>         |   12.655|
+switches<5>    |led<2>         |   12.494|
+switches<5>    |led<3>         |   13.756|
+switches<5>    |led<4>         |   11.034|
+switches<5>    |sevenseg<0>    |   13.891|
+switches<5>    |sevenseg<1>    |   13.543|
+switches<5>    |sevenseg<2>    |   14.160|
+switches<5>    |sevenseg<3>    |   13.566|
+switches<5>    |sevenseg<4>    |   14.367|
+switches<5>    |sevenseg<5>    |   13.883|
+switches<5>    |sevenseg<6>    |   14.275|
+switches<6>    |led<0>         |   12.466|
+switches<6>    |led<2>         |   11.797|
+switches<6>    |led<3>         |   12.799|
+switches<6>    |led<4>         |    9.538|
+switches<6>    |sevenseg<0>    |   13.085|
+switches<6>    |sevenseg<1>    |   12.586|
+switches<6>    |sevenseg<2>    |   13.203|
+switches<6>    |sevenseg<3>    |   12.760|
+switches<6>    |sevenseg<4>    |   13.410|
+switches<6>    |sevenseg<5>    |   12.926|
+switches<6>    |sevenseg<6>    |   13.318|
+switches<7>    |led<0>         |   12.172|
+switches<7>    |led<3>         |   12.000|
+switches<7>    |led<4>         |    9.502|
+switches<7>    |sevenseg<0>    |   12.791|
+switches<7>    |sevenseg<1>    |   12.134|
 switches<7>    |sevenseg<2>    |   12.636|
-switches<7>    |sevenseg<3>    |   12.121|
-switches<7>    |sevenseg<4>    |   12.596|
+switches<7>    |sevenseg<3>    |   12.466|
+switches<7>    |sevenseg<4>    |   12.913|
 switches<7>    |sevenseg<5>    |   12.359|
-switches<7>    |sevenseg<6>    |   12.504|
+switches<7>    |sevenseg<6>    |   12.821|
 ---------------+---------------+---------+
 
 
-Analysis completed Tue Oct 04 09:57:58 2016 
+Analysis completed Tue Oct  4 15:35:52 2016 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 163 MB
+Peak Memory Usage: 288 MB
 
 
 

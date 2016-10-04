@@ -1,14 +1,20 @@
-Release 12.4 par M.81d (nt)
+Release 12.4 par M.81d (lin64)
 Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-16JORPG::  Tue Oct 04 09:57:48 2016
+a16p21::  Tue Oct 04 15:35:45 2016
 
 par -w -intstyle ise -ol high -mt off calc_map.ncd calc.ncd calc.pcf 
 
 
 Constraints file: calc.pcf.
-Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\12.4\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '6slx16.nph' in environment /opt/Xilinx/12.4/ISE_DS/ISE/.
    "calc" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc6slx16' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
+to function, but you no longer qualify for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
 Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
@@ -40,7 +46,7 @@ Slice Logic Utilization:
     Number used as Memory:                       0 out of   2,176    0%
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    25 out of   2,278    1%
+  Number of occupied Slices:                    27 out of   2,278    1%
   Number of LUT Flip Flop pairs used:           45
     Number with an unused Flip Flop:            40 out of      45   88%
     Number with an unused LUT:                   0 out of      45    0%
@@ -85,35 +91,35 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 3 secs 
-Finished initial Timing Analysis.  REAL time: 3 secs 
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
 
 Starting Router
 
 
-Phase  1  : 244 unrouted;      REAL time: 3 secs 
+Phase  1  : 244 unrouted;      REAL time: 2 secs 
 
-Phase  2  : 226 unrouted;      REAL time: 3 secs 
+Phase  2  : 226 unrouted;      REAL time: 2 secs 
 
-Phase  3  : 125 unrouted;      REAL time: 4 secs 
+Phase  3  : 140 unrouted;      REAL time: 3 secs 
 
-Phase  4  : 125 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Phase  4  : 140 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
 
 Updating file: calc.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
-Total REAL time to Router completion: 5 secs 
-Total CPU time to Router completion: 4 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+Total REAL time to Router completion: 4 secs 
+Total CPU time to Router completion: 3 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -142,10 +148,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 5 secs 
-Total CPU time to PAR completion: 5 secs 
+Total REAL time to PAR completion: 4 secs 
+Total CPU time to PAR completion: 3 secs 
 
-Peak Memory Usage:  251 MB
+Peak Memory Usage:  452 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

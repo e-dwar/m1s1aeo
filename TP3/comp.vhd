@@ -39,8 +39,7 @@ architecture Behavioral of comp is
 
 begin
 
-	s <= "0001" when a = b else
-	     "0000" when a /= b;
+	s <= "0001" when a = b else "0000";
 
 end Behavioral;
 
